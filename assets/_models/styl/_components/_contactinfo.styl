@@ -1,0 +1,40 @@
+.contactinfo
+    display: flex
+    justify-content: space-between
+    padding-bottom: 2em
+    list-style: none
+    line-height: 1.2
+
+    a
+        color: $colour.default
+        text-decoration: none
+
+        &:hover
+            text-decoration: underline
+
+    li
+        position: relative
+        padding-left: calc(38px + .5em)
+
+        &:before
+            content: ''
+            display: block
+            position: absolute
+            top: 0
+            left: 0
+            width: 38px
+            height: @width
+            margin-right: .5em
+            background-color: $colour.crystal
+
+    span
+        display: block
+        font-size: _px2em(20px)
+        text-transform: uppercase
+
+    @media $screen.sm
+        flex-wrap: wrap
+
+        li
+            flex-grow: 1
+            padding-bottom: 1em

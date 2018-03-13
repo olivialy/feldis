@@ -1,0 +1,50 @@
+.work
+    position: relative
+    display: block
+    height: 100%
+
+    > img
+        width: 100%
+        height: auto
+
+    &:before
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        z-index: 1
+        content: ''
+        background-color: rgba($colour.default, .6)
+
+    &-detail
+        position: absolute
+        top: 50%
+        left: 50%
+        z-index: 2
+        color: white
+        text-align: center
+        text-transform: uppercase
+        transform: translate(-50%, -50%)
+
+        > strong
+            display: block
+
+    // hover
+    &:hover
+        &:before
+        .work-detail
+            opacity: 1
+
+    @media $screen.sm
+        &-detail
+            width: 100%
+            font-size: .9em
+            line-height: 1
+
+    @media $screen.md
+        &:before
+        &-detail
+            opacity: 0
+            transition: opacity .2s
+

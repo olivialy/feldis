@@ -1,0 +1,94 @@
+.chronology
+    {clearfix}
+
+    li
+        position: relative
+        float: left
+        width: 49%
+        padding-top: 49%
+        margin: 1%
+        background-position: top center
+        background-repeat: no-repeat
+        background-size: cover
+        list-style: none
+        cursor: default
+
+        &:before
+            content: ''
+            position: absolute
+            z-index: 1
+            top: 6%
+            right: @top
+            bottom: @top
+            left: @top
+            background-color: rgba(white, .6)
+            transition: background-color .2s
+
+        &:hover
+            &:before
+                background-color: rgba(white, 1)
+
+    for year in 1998 2000 2002 2010 2012 2013
+        &-{year}
+            background-image: "url(../img/identite-%s.jpg)" % year
+
+    &-content
+        position: absolute
+        z-index: 2
+        top: 50%
+        right: 5%
+        left: @right
+        padding: .5em
+        transform: translateY(-50%)
+
+        p
+            padding-bottom: 0
+
+    &-year
+        font-size: 1.25em
+        font-weight: bold
+        line-height: 1.2
+
+    &-title
+        _bordered({borderColour: $colour.default})
+        margin-bottom: .5em
+        text-transform: uppercase
+        line-height: 1
+
+    &-description
+        font-size: 1em
+        line-height: 1
+
+    @media $screen.sm
+        li
+            &:nth-child(odd)
+                margin-left: 0
+
+            &:nth-child(even)
+                margin-right: 0
+
+    @media $screen.md
+        li
+            position: relative
+            float: left
+            width: calc(100%/3 - 2em)
+            padding-top: calc(100%/3 - 2em)
+            margin: 1em
+
+        &-content
+            padding: 1.5em
+
+        &-year
+            font-size: 2.429em
+
+        &-title
+            font-size: 1.786em
+            line-height: 1.2
+
+    @media $screen.lg
+        &-description
+            font-size: 1.4vw
+
+    @media $screen.xl
+        &-description
+            font-size: 1.286em

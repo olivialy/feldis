@@ -1,0 +1,57 @@
+.keyfigures
+    position:relative
+    display: flex
+    align-items: center
+    padding: 3em 0
+    background: url(../img/bg-keyfigures.jpg) no-repeat center
+    background-size: cover
+    background-attachment: fixed
+    color: white
+
+    &:before
+        content: ''
+        position: absolute
+        z-index: 1
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background-color: rgba($colour.default, .6)
+
+    &-content
+        position:relative
+        z-index: 2
+
+    ul
+        display: flex
+        flex-wrap: wrap
+        align-items: strech
+        justify-content: space-between
+        padding-top: 1em
+        list-style: none
+
+    li
+        width: 48%
+        margin-bottom: 4%
+        padding: 2em 1em 1em
+        border: 1px solid white
+        font-size: _px2em(14px)
+        line-height: 1.2
+
+        > span
+            display: block
+            font-size: _px2em(30px)
+            font-weight: bold
+
+    &-water
+        background-image: url(../img/bg-keyfigures-water.jpg)
+
+    @media $screen.md
+        li
+            width: 23%
+            max-width: 260px
+            margin-bottom: 0
+            font-size: _px2em(20px)
+
+            > span
+                font-size: _px2em(45px)

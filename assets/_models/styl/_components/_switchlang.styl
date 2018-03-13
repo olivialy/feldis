@@ -1,0 +1,18 @@
+.switchlang
+    min-width: 50px
+    padding-bottom: 1em
+    align-self: center
+
+    a
+        margin: 0 .25em
+        color: $colour.default
+        text-decoration: none
+
+        &:hover
+            text-decoration: underline
+
+    a&-active
+        text-decoration: underline
+
+    @media $screen.sm
+        margin-right: 42px // needed to display icon menu which is positionned absolutely

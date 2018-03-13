@@ -1,0 +1,25 @@
+$borderDefaultStyle = {
+    w: 70px,
+    mt: .5em,
+    mr: auto,
+    mb: 0,
+    ml: auto,
+    borderWidth: 2px,
+    borderColour: $colour.crystal
+}
+
+_bordered(customStyles={})
+    w = customStyles.w ? customStyles.w : $borderDefaultStyle.w
+    mt = customStyles.mt ? customStyles.mt : $borderDefaultStyle.mt
+    mr = customStyles.mr ? customStyles.mr : $borderDefaultStyle.mr
+    mb = customStyles.mb ? customStyles.mb : $borderDefaultStyle.mb
+    ml = customStyles.ml ? customStyles.ml : $borderDefaultStyle.ml
+    borderWidth = customStyles.borderWidth ? customStyles.borderWidth : $borderDefaultStyle.borderWidth
+    borderColour = customStyles.borderColour ? customStyles.borderColour : $borderDefaultStyle.borderColour
+
+    &:after
+        content: ''
+        display: block
+        width: w
+        margin: mt mr mb ml
+        border-bottom: borderWidth solid borderColour

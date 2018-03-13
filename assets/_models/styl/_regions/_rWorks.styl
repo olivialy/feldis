@@ -1,0 +1,27 @@
+.rWorks
+    display: flex
+    flex-wrap: wrap
+    align-items: stretch
+    list-style: none
+
+    [data-index]
+        display: none
+
+    @media $screen.sm
+        > li
+            width: 48%
+            margin: 1%
+
+    @media $screen.md
+        {clearfix}
+        margin: 0 -1%
+
+        > li
+            margin: 0 1% 2%
+            list-style-type: none
+
+        &-half
+            width: 48%
+
+        &-third
+            width: calc(100%/3 - 2%)

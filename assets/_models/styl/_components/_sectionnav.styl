@@ -1,0 +1,25 @@
+.sectionnav
+    li
+        display: inline
+        font-size: .857em
+
+    a
+        color: $colour.default
+        text-decoration: none
+
+    &-title
+        color: $colour.default
+        font-size: 1.071em
+        font-weight: bold
+        text-transform: uppercase
+
+    &-active
+        font-weight: bold
+
+        a
+            text-decoration: underline
+
+    for material in $materials
+        &-{material}
+            .sectionnav-active a
+                color: $colour[material]

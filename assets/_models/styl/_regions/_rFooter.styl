@@ -1,0 +1,64 @@
+.rFooter
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    &-title
+        font-size: 1.143em
+        font-weight: bold
+        text-align: center
+
+    &-address
+    &-feed
+    &-social
+        flex-basis: 40%
+        width: 40%
+        margin: 0 5%
+
+    &-address
+    &-social
+        margin-bottom: 2em
+
+    &-address
+        text-align: center
+        max-width: 227px
+
+    &-social
+        padding-top: 2em
+
+    @media $screen.xs
+        &-social
+        &-address
+        &-feed
+            _bordered({mt: 1em})
+            flex-basis: 100%
+            width: 100%
+            margin: 0 0 2em
+
+        &-social
+            padding-top: 0
+
+    @media $screen.lg
+        justify-content: space-between
+
+        &-social
+        &-address
+        &-feed
+            margin: 0
+
+        &-address
+        &-social
+            flex-basis: 20%
+            width: 20%
+
+        &-social
+            flex-basis: 14%
+            width: 14%
+
+        &-address
+            text-align: left
+
+        &-feed
+            flex-basis: 33%
+            width: 33%
+

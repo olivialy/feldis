@@ -1,0 +1,6 @@
+npm-debug.log
+node_modules/
+vendor/
+web/css/
+web/js/
+web/svg/

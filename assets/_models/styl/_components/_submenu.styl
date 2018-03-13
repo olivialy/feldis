@@ -1,0 +1,25 @@
+.submenu
+    display: none
+    padding: .5em 0
+    background-color: $colour.default
+    text-align: center
+    font-size: .929em
+
+    li
+        display: inline
+        padding: 0 1em
+        text-transform: uppercase
+
+    a
+        color: white
+        text-decoration: none
+
+
+    &-active
+        a
+            color: $colour.crystal
+            font-weight: bold
+            text-decoration: underline
+
+    @media $screen.md
+        display: block

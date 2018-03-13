@@ -1,0 +1,67 @@
+.menu
+    > li
+        padding-bottom: .5em
+        font-size: 1.5em
+        list-style: none
+
+        > ul
+            font-size: .7em
+            list-style: none
+
+    a
+        color: $colour.default
+        text-decoration: none
+
+        &:hover
+            text-decoration: underline
+
+    svg
+        vertical-align: middle
+
+    &-lang
+        padding-right: 0!important
+
+    &-active
+        a
+            color: $colour.crystal
+            text-decoration: underline
+
+        svg
+            transform: rotate(90deg)
+            fill: $colour.crystal
+
+        li:not(.menu-active) a
+            color: $colour.default
+
+    @media $screen.sm
+        svg
+            transform: scale(2)
+
+    @media $screen.md
+        li
+            padding-right: 1em
+            padding-bottom: 1em
+            display: inline-block
+            font-size: 1em
+
+            > ul
+                display: none
+
+        &-expanded
+            position: relative
+
+            &:after
+                content: ''
+                display: block
+                position: absolute
+                bottom: 0
+                left: 50%
+                width: 0
+                height: @width
+                border: 10px solid transparent
+                border-bottom-color: $colour.default
+                transform: translateX(-100%)
+
+    @media $screen.lg
+        li
+            font-size: 1.14em
