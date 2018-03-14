@@ -56,7 +56,7 @@
 
 
 <!-- footer -->
-<?php //require_once('templates/_components/_footer.php');?>
+<?php require_once('templates/_components/_footer.php');?>
 
 
 <!-- modals: search -->
