@@ -1,9 +1,0 @@
-// Grid helpers
-for breakpoint, query in $screen
-    @media query
-        for i in (1..$columns)
-            .{breakpoint}-{i}
-                _column(i)
-
-            .{breakpoint}-offset-{i}
-                _offset(i)

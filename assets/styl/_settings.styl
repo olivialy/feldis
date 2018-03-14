@@ -1,34 +1,23 @@
 $gutter = 1.2rem
 $columns = 12 // number of columns
 $screen = {
-    xs:  "screen and (max-width: 26em)", // 416px
-    sm:  "screen and (max-width: 48em)",
-    md: "screen and (min-width: 48em)",  // 768px
-    lg:  "screen and (min-width: 60em)", // 960px
-    xl:  "screen and (min-width: 96em)"  // 1280px
+    xs:  "screen and (max-width: 415px)", // < 416px
+    sm:  "screen and (max-width: 767px)", // < 768px
+    md: "screen and (min-width: 768px)",  // > 768px
+    lg:  "screen and (min-width: 960px)"  // > 960px
 }
 
 // fonts
-$fontsize = 1.4rem
+$fontsize = 1.5rem
 $font = {
-    body: unquote('"Open Sans", Helvetica, Arial, sans-serif'),
-    heading: unquote('"Open Sans", Georgia, Times, serif')
+    body: unquote('Arial, Helvetica, sans-serif'),
+    heading: unquote('Arial, Georgia, Times, serif')
 }
 
 // colours
-$colourMaterial = {
-    water: #006098,
-    ice: #009ca8,
-    decor: #cfa642,
-    sfx: #a42616,
-    meca: #919396,
+$colour = {
+    default: #32373a,
+    pink: #bd0650,
+    yellow: #fcc300,
+    purple: #938c8f
 }
-$materials = keys($colourMaterial)
-
-$colorUI = {
-    default: #000000,
-    grey: #a7a7a7,
-    crystal: #c1b99c
-}
-
-$colour = merge($colourMaterial, $colorUI)

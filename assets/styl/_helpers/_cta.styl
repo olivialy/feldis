@@ -1,0 +1,29 @@
+.cta
+    display: inline-block
+    padding: 1em
+    border: none
+    background-color: $colour.default
+    color: white
+    font-size: _px2em(12px)
+    font-weight: bold
+    line-height: 1
+    text-decoration: none
+    text-transform: uppercase
+    transition: background-color .2s, color .2s
+
+    svg
+        fill: currentColor
+        vertical-align: middle
+        margin: 0 .5em
+
+    &:hover
+        //background-color: $colour.crystal
+        filter: brightness(1.2)
+
+    for colour in $colour
+        if colour is not 'default'
+            &-{colour}
+                background-color: $colour[colour]
+
+                if colour is 'yellow'
+                    color: $colour.default
