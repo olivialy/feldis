@@ -34,9 +34,10 @@
 
             </ul>
             <div class="rHeader-nav-aside">
+                <a href="Recherche" class="mr1 color-pink" data-modal="#modal-search"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
                 <a href="#Contact" class="cta cta-pink">Contact<svg height="24" width="24"><use xlink:href="#symbol-mail"></use></svg></a>
             </div>
-            <button id="close-menu" class="rHeader-nav-close cta cta-pink"><svg height="20" width="20"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
+            <button id="close-menu" class="rHeader-nav-close color-pink"><svg height="20" width="20"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
         </nav>
         <button id="open-menu" class="rHeader-triggermenu cta cta-pink"><svg height="21" width="21"><use xlink:href="#symbol-menu"></use> </svg><span class="sr-only">Menu</span></button>
     </div>
@@ -49,11 +50,21 @@
     ?>
 </header>
 
+
 <!-- page markup -->
 <?php require_once('templates/_pages/_' . $page . '.php');?>
 
+
 <!-- footer -->
-<?php require_once('templates/_components/_footer.php');?>
+<?php //require_once('templates/_components/_footer.php');?>
+
+
+<!-- modals: search -->
+<div id="modal-search" class="modal modal-search" aria-hidden="true">
+    <?php include_once('templates/_pages/_recherche.php');?>
+    <button class="modal-close" data-modal="#modal-search"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
+</div>
+
 
 <!-- js -->
 <script src="web/js/html5shiv.min.js"></script>

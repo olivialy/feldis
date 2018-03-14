@@ -17,12 +17,17 @@
         width: 100%
         text-align: center
 
+        svg
+            vertical-align: middle
+
         &-close
+            {triggerButton}
             {topRightButton}
 
     @media $screen.sm
         &-nav
             position: fixed
+            z-index: 20
             top: 0
             left: 0
             height: 100%
