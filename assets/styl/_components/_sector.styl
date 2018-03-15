@@ -1,0 +1,65 @@
+.sector
+    {clearfix}
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+    &-item
+        position: relative
+        display: inline-block
+        width: 135px
+        height: @width
+        margin: 1em auto
+        background: url(../img/circle.jpg) no-repeat center
+        background-size: cover
+
+        a
+            display: block
+            position: absolute
+            z-index: 2
+            top: 50%
+            left: 46%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            width: 120px
+            height: @width
+            border-radius: 200em
+            background-color: rgba($colour.yellow, 0)
+            color: $colour.default
+            font-size: _px2em(12x)
+            font-weight: bold
+            line-height: 1
+            text-decoration: none
+            text-transform: uppercase
+            transform: translate(-50%, -50%)
+            transition: color .2s, background-color .2s
+
+            svg
+                fill: $colour.pink
+                transition: fill .2s
+
+            &:hover
+                color: white
+                background-color: rgba($colour.yellow, 1)
+
+                svg
+                    fill: white
+
+    @media $screen.xs
+        width: 100%!important
+        margin: 1em 0
+
+    @media $screen.sm
+        width: 74%
+        margin: 0 auto
+
+    @media $screen.lg
+        width: 100%
+
+        &-item
+            width: 140px
+            height: @width
+            margin: 1em auto
+

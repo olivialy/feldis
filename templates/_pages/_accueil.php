@@ -24,3 +24,41 @@
         </div>
     </div>
 </section>
+
+<!-- sectors -->
+<section class="tHP-sectors wrap align-center pt4 pb6">
+    <p class="md-10 lg-7">Grâce à notre expérience, nous connaissons les process et les contraintes de votre secteur ce qui nous permet de vous offrir un accompagnement sur-mesure</p>
+    <h2>Choisissez votre secteur</h2>
+    <ul class="sector">
+        <li class="sector-item">
+            <a href="#" class="sector-item-name">
+                <svg height="60" width="60"><use xlink:href="#symbol-sector-collectivite"></use> </svg>
+                Collectivités<br />locales
+            </a>
+        </li>
+        <li class="sector-item">
+            <a href="#" class="sector-item-name">
+                <svg height="60" width="60"><use xlink:href="#symbol-sector-assurance"></use> </svg>
+                Assurances
+            </a>
+        </li>
+        <li class="sector-item">
+            <a href="#" class="sector-item-name">
+                <svg height="60" width="60"><use xlink:href="#symbol-sector-hotel"></use> </svg>
+                Hôtellerie
+            </a>
+        </li>
+        <li class="sector-item">
+            <a href="#" class="sector-item-name">
+                <svg height="60" width="60"><use xlink:href="#symbol-sector-bailleur"></use> </svg>
+                Bailleurs<br />sociaux
+            </a>
+        </li>
+        <li class="sector-item">
+            <a href="#" class="sector-item-name">
+                <svg height="60" width="60"><use xlink:href="#symbol-sector-grandcompte"></use> </svg>
+                Grands<br />comptes
+            </a>
+        </li>
+    </ul>
+</section>

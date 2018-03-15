@@ -21,7 +21,7 @@ var cfg = {
     webDir: 'web/',
     stylusPattern: 'styl/**/*.styl',
     jsPattern: 'js/**/*.js',
-    svgPattern: 'svg/**/*.svg'
+    svgPattern: 'svg/*.svg'
 };
 
 // styles
