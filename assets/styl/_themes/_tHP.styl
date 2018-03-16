@@ -1,3 +1,16 @@
+[class^="tHP"]
+    h2
+        font-size: _px2em(35px)
+        padding-bottom: .1em
+        text-transform: uppercase
+        line-height: 1
+
+    h3
+        margin-bottom: .75em
+        font-size: _px2em(24px)
+        text-transform: uppercase
+        line-height: 1
+
 .tHP
     // top section
     &-skills
@@ -9,11 +22,6 @@
         background-size: cover
         line-height: 1.3
 
-        h2
-            padding-bottom: .1em
-            text-transform: uppercase
-            line-height: 1
-
         p
             padding-bottom: 1em
 
@@ -22,7 +30,6 @@
 
         h2
             color: $colour.pink
-            font-size: 24px
             font-weight: normal
 
             span
@@ -49,8 +56,6 @@
     @media $screen.lg
         &-skills
             h2
-                font-size: 35px
-
                 span
                     font-size: 42px
 
@@ -63,9 +68,7 @@
     &-sectors
         h2
             display: inline-block
-            font-size: _px2em(35x)
             font-weight: normal
-            text-transform: uppercase
 
         p
             margin-right: auto
@@ -104,3 +107,13 @@
         h2
             font-size: _px2em(35px)
             text-transform: uppercase
+
+    // newsletter section
+    &-newsletter
+        h3
+            font-size: _px2em(25px)
+            text-transform: uppercase
+
+        p
+            font-size: _px2em(12px)
+            line-height: 1.2

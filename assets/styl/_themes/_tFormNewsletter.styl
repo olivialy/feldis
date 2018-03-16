@@ -1,0 +1,45 @@
+.tFormNewsletter
+    input[type=text]
+    input[type=email]
+    label
+    ::placeholder
+        color: $colour.default
+        font-size: 1.14em
+        font-weight: bold
+        text-transform: uppercase
+
+    input[type=text]
+    input[type=email]
+    textarea
+        width: 100%
+        min-height: 2em
+        padding: .3em .75em
+        border: none
+
+        &::placeholder
+            color: $colour.default
+
+        &:focus
+            background-color: rgba(white, 1)
+            color: $colour.darkgrey
+            outline: none
+
+    input[type=text]
+    input[type=email]
+        border-bottom: 6px solid $colour.default
+        background-color: rgba(white, 0)
+        transition background-color .2s, color .2s
+
+    input[type="button"]
+    input[type="submit"]
+        cursor: pointer
+
+    fieldset
+        position: relative
+        margin-right: 0
+        padding: 0
+        border: none
+
+        > p
+            padding-bottom: 0
+
