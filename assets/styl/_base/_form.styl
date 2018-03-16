@@ -1,0 +1,40 @@
+input[type=text]
+input[type=email]
+label
+::placeholder
+    color: $colour.default
+    font-size: _px2em(15px)
+    text-transform: uppercase
+
+input[type=text]
+input[type=email]
+textarea
+    width: 100%
+    padding: .25em
+    border: 1px solid #a1b2be
+    text-align: center
+
+    &::placeholder
+        color: $colour.pink
+        opacity: 1 !important;
+
+    &:focus
+        //background-color: rgba(white, 1)
+        outline: none
+
+input[type=text]
+input[type=email]
+    //
+
+input[type="button"]
+input[type="submit"]
+    cursor: pointer
+
+fieldset
+    margin: 0
+    padding: 0
+    border: none
+
+    > p
+        padding-bottom: 1em
+
