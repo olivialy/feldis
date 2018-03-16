@@ -62,3 +62,85 @@
         </li>
     </ul>
 </section>
+
+<!-- latest works & news section -->
+<section>
+    <div class="rTwins">
+        <div class="rTwins-child bg-pink tHP-latest">
+            <div class="rTwins-child-content">
+                <h2>Nos Réalisations</h2>
+                <p>Découvrez quelques-unes de nos réalisations pour lesquelles nous avons déployé notre savoir-faire et toutes nos compétences. </p>
+                <ul class="cards mt2 mb1">
+                    <li class="cards-item">
+                        <div class="cards-item-content">
+                            <dl>
+                                <dt><strong>Projet</strong></dt>
+                                <dd>Maison de santé + 2 appartements de santé + 2 appartements</dd>
+                                <dt><strong>Lieu</strong></dt>
+                                <dd>Faremoutiers (77)</dd>
+                                <dt><strong>Compétences</strong></dt>
+                                <dd>Rénovation / Vitrerie / Sol / Plomberie / Vitrerie / Sol / Plomberie</dd>
+                            </dl>
+                            <a class="cta pa1" href="#">En savoir plus</a>
+                        </div>
+                        <div class="cards-item-img">
+                            <img src="web/img/cards/card-01.jpg" height="162" width="254" alt="Titre de l'image" />
+                        </div>
+                    </li>
+                    <li class="cards-item">
+                        <div class="cards-item-content">
+                            <dl>
+                                <dt><strong>Projet</strong></dt>
+                                <dd>Maison de santé + 2 appartements</dd>
+                                <dt><strong>Lieu</strong></dt>
+                                <dd>Faremoutiers (77)</dd>
+                                <dt><strong>Compétences</strong></dt>
+                                <dd>Rénovation / Vitrerie / Sol / Plomberie</dd>
+                            </dl>
+                            <a class="cta pa1" href="#">En savoir plus</a>
+                        </div>
+                        <div class="cards-item-img">
+                            <img src="web/img/cards/card-02.jpg" height="162" width="254" alt="Titre de l'image" />
+                        </div>
+                    </li>
+                </ul>
+                <p><a href="#">Voir toutes nos réalisations</a></p>
+            </div>
+        </div>
+        <div class="rTwins-child bg-purple tHP-latest">
+            <div class="rTwins-child-content">
+                <h2>Nos Réalisations</h2>
+                <p>Retrouvez toutes les actualités <br />et informations de Feldis & Leviaux. </p>
+                <ul class="cards mt2 mb1">
+                    <li class="cards-item">
+                        <div class="cards-item-content">
+                            <dl>
+                                <dt><strong>SUJET</strong></dt>
+                                <dd>Titre à venir</dd>
+                                <dd>Début article à venir texte à venir texte à venir, texte à venir, texte à venir texte à venir...</dd>
+                            </dl>
+                            <a class="cta cta-pink pa1" href="#">En savoir plus</a>
+                        </div>
+                        <div class="cards-item-img">
+                            <img src="web/img/cards/card-03.jpg" height="162" width="254" alt="Titre de l'image" />
+                        </div>
+                    </li>
+                    <li class="cards-item">
+                        <div class="cards-item-content">
+                            <dl>
+                                <dt><strong>SUJET</strong></dt>
+                                <dd>Titre à venir</dd>
+                                <dd>Début article à venir texte à venir texte à venir, texte à venir, texte à venir texte à venir...</dd>
+                            </dl>
+                            <a class="cta cta-pink pa1" href="#">En savoir plus</a>
+                        </div>
+                        <div class="cards-item-img">
+                            <img src="web/img/cards/card-04.jpg" height="162" width="254" alt="Titre de l'image" />
+                        </div>
+                    </li>
+                </ul>
+                <p><a href="#">Voir toutes nos actualités</a></p>
+            </div>
+        </div>
+    </div>
+</section>
