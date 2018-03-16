@@ -3,7 +3,7 @@
     <div class="tHP-skills rTwins-child">
         <div class="rTwins-child-content">
             <h2>Ce que nous faisons <span>Nous le faisons bien</span></h2>
-            <p>Feldis & Leviaux est une entreprise générale de peinture, ravalement, revêtement de sol, vitrerie, menuiserie et plâtrerie, située à Melun, dans le sud de la Seine-et-Marne etse déplaçant dans toute l’Île-de-France.</p>
+            <p><strong>Feldis & Leviaux est une entreprise générale de peinture, ravalement, revêtement de sol, vitrerie, menuiserie et plâtrerie, située à Melun, dans le sud de la Seine-et-Marne etse déplaçant dans toute l’Île-de-France.</strong></p>
             <a href="#" class="cta cta-pink">Découvrez nos compétences <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg> </a>
         </div>
     </div>
@@ -18,7 +18,7 @@
         <div class="tHP-environment">
             <div class="rTwins-child-content">
                 <h2>L'environnement</h2>
-                <p>Feldis & Leviaux s’engage à respecter une véritable démarche environnementale.</p>
+                <p><strong>Feldis & Leviaux s’engage à respecter une véritable démarche environnementale.</strong></p>
                 <a href="#" class="cta cta-yellow float-right">Découvrez nos engagements <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></a>
             </div>
         </div>
@@ -151,7 +151,7 @@
     <div class="clearfix wrap">
         <div class="tHP-newsletter float-left md-6 mb1">
             <h3>Inscrivez-vous à notre newsletter</h3>
-            <p class="pb1">Pour connaître l’actualité de Feldis & Leviaux, nos événements, l’avancé de chantiers en Ile-de-France et à Paris, ainsiq eu l’actualité du secteur, nous vous proposons de recevoir tous les deux mois notre newsletter.</p>
+            <p>Pour connaître l’actualité de Feldis & Leviaux, nos événements, l’avancé de chantiers en Ile-de-France et à Paris, ainsiq eu l’actualité du secteur, nous vous proposons de recevoir tous les deux mois notre newsletter.</p>
             <p><strong>Restez connecté à l’info et suivez de multiples projets !</strong></p>
         </div>
         <fieldset class="sm-12 md-5 md-offset-1 float-left">
@@ -176,11 +176,21 @@
     </div>
 </form>
 
+<!-- job section -->
+<section class="tHP-jobs pt4 pb4">
+    <div class="wrap">
+        <div class="sm-12 md-6">
+            <h3>Et si vous nous rejoigniez&nbsp;?</h3>
+            <p>Découvrez toutes nos offres d’emploi du moment. Partagez votre expérience, vos compétences et votre envie avec une entreprise qui valorise l’esprit d’initiative et l’autonomie.</p>
+            <p><a href="#"class="cta">Voir nos offres d'emploi</a></p>
+        </div>
+    </div>
+</section>
 <!-- contact form -->
-<form action="/" class="tContact">
+<form id="contact" action="/" class="tContact">
     <div class="wrap pt3">
         <h2 class="align-center">Contactez feldis & Leviaux</h2>
-        <fieldset class="md-6 md-offset-3">
+        <fieldset class="sm-10 md-8 lg-6">
             <p>
                 <label class="sr-only" for="ct-name">Nom</label>
                 <input id="ct-name" type="text" placeholder="Votre nom*" required />

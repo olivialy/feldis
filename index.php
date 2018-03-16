@@ -34,8 +34,8 @@
 
             </ul>
             <div class="rHeader-nav-aside">
-                <a href="Recherche" class="mr1 color-pink" data-modal="#modal-search"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
-                <a href="#Contact" class="cta cta-pink">Contact<svg class="ml1" height="24" width="24"><use xlink:href="#symbol-mail"></use></svg></a>
+                <a href="#modal-search" class="mr1 color-pink" data-modal="#modal-search"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
+                <a href="#contact" class="cta cta-pink">Contact<svg class="ml1" height="24" width="24"><use xlink:href="#symbol-mail"></use></svg></a>
             </div>
             <button id="close-menu" class="rHeader-nav-close color-pink"><svg height="20" width="20"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
         </nav>
