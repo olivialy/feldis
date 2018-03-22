@@ -31,7 +31,6 @@
                 <li<?php if($page == 'environnement') echo ' class="menu-active"' ?>><a href="Environnement">Environnement</a></li>
                 <li<?php if($page == 'actus') echo ' class="menu-active"' ?>><a href="Actus">Actus</a></li>
                 <li<?php if($page == 'offres') echo ' class="menu-active"' ?>><a href="Certifications">Offres</a></li>
-
             </ul>
             <div class="rHeader-nav-aside">
                 <a href="#modal-search" class="mr1 color-pink" data-modal="#modal-search"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
@@ -44,9 +43,9 @@
 
     <!-- header: sub nav -->
     <?php
-//    if (in_array($page, ['identite', 'organisation', 'valeurs'])) {
-        include_once('templates/_components/_submenu-presentation.php');
-//    }
+    if (in_array($page, ['competences'])) {
+        include_once('templates/_components/_submenu.php');
+    }
     ?>
 </header>
 

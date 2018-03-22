@@ -1,0 +1,25 @@
+.submenu
+    display: none
+    padding: .5em 0
+    background-color: #e4e1e2
+    text-align: center
+    font-size: _px2em(13px)
+
+    li
+        display: inline
+        padding: 0 1em
+        text-transform: lowercase
+
+    a
+        color: #78797b
+        text-decoration: none
+
+
+    &-active
+        a
+            color: $colour.crystal
+            font-weight: bold
+            text-decoration: underline
+
+    @media $screen.md
+        display: block
