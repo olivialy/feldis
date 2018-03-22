@@ -1,0 +1,18 @@
+.rCards
+    {clearfix}
+    margin: 0 -1em
+    list-style: none
+
+    &-child
+        position: relative
+        float: left
+        width:  calc(50% - 1em)
+        margin: .5em
+        background-color: #f6f4f2;
+
+    @media $screen.md
+        &-child
+            width:  calc(100%/3 - 2em)
+            margin: 1em
+
+

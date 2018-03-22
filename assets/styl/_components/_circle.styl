@@ -1,0 +1,15 @@
+.circle
+    position: relative
+    width: 196px
+    height: @width
+    background: url(../img/circle-yellow.png) no-repeat center
+    transition: opacity .2s
+
+    &-content
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+    &-hidden
+        opacity: 0

@@ -70,9 +70,9 @@
             <div class="rTwins-child-content">
                 <h2>Nos Réalisations</h2>
                 <p>Découvrez quelques-unes de nos réalisations pour lesquelles nous avons déployé notre savoir-faire et toutes nos compétences. </p>
-                <ul class="cards mt2 mb1">
-                    <li class="cards-item">
-                        <div class="cards-item-content">
+                <ul class="teasers mt2 mb1">
+                    <li class="teasers-item">
+                        <div class="teasers-item-content">
                             <dl>
                                 <dt><strong>Projet</strong></dt>
                                 <dd>Maison de santé + 2 appartements de santé + 2 appartements</dd>
@@ -83,12 +83,12 @@
                             </dl>
                             <a class="cta pa1" href="#">En savoir plus</a>
                         </div>
-                        <div class="cards-item-img">
-                            <img src="web/img/cards/card-01.jpg" height="162" width="254" alt="Titre de l'image" />
+                        <div class="teasers-item-img">
+                            <img src="web/img/teasers/teaser-01.jpg" height="162" width="254" alt="Titre de l'image" />
                         </div>
                     </li>
-                    <li class="cards-item">
-                        <div class="cards-item-content">
+                    <li class="teasers-item">
+                        <div class="teasers-item-content">
                             <dl>
                                 <dt><strong>Projet</strong></dt>
                                 <dd>Maison de santé + 2 appartements</dd>
@@ -99,8 +99,8 @@
                             </dl>
                             <a class="cta pa1" href="#">En savoir plus</a>
                         </div>
-                        <div class="cards-item-img">
-                            <img src="web/img/cards/card-02.jpg" height="162" width="254" alt="Titre de l'image" />
+                        <div class="teasers-item-img">
+                            <img src="web/img/teasers/teaser-02.jpg" height="162" width="254" alt="Titre de l'image" />
                         </div>
                     </li>
                 </ul>
@@ -111,9 +111,9 @@
             <div class="rTwins-child-content">
                 <h2>Nos Réalisations</h2>
                 <p>Retrouvez toutes les actualités <br />et informations de Feldis & Leviaux. </p>
-                <ul class="cards mt2 mb1">
-                    <li class="cards-item">
-                        <div class="cards-item-content">
+                <ul class="teasers mt2 mb1">
+                    <li class="teasers-item">
+                        <div class="teasers-item-content">
                             <dl>
                                 <dt><strong>SUJET</strong></dt>
                                 <dd>Titre à venir</dd>
@@ -121,12 +121,12 @@
                             </dl>
                             <a class="cta cta-pink pa1" href="#">En savoir plus</a>
                         </div>
-                        <div class="cards-item-img">
-                            <img src="web/img/cards/card-03.jpg" height="162" width="254" alt="Titre de l'image" />
+                        <div class="teasers-item-img">
+                            <img src="web/img/teasers/teaser-03.jpg" height="162" width="254" alt="Titre de l'image" />
                         </div>
                     </li>
-                    <li class="cards-item">
-                        <div class="cards-item-content">
+                    <li class="teasers-item">
+                        <div class="teasers-item-content">
                             <dl>
                                 <dt><strong>SUJET</strong></dt>
                                 <dd>Titre à venir</dd>
@@ -134,8 +134,8 @@
                             </dl>
                             <a class="cta cta-pink pa1" href="#">En savoir plus</a>
                         </div>
-                        <div class="cards-item-img">
-                            <img src="web/img/cards/card-04.jpg" height="162" width="254" alt="Titre de l'image" />
+                        <div class="teasers-item-img">
+                            <img src="web/img/teasers/teaser-04.jpg" height="162" width="254" alt="Titre de l'image" />
                         </div>
                     </li>
                 </ul>

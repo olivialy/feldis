@@ -1,0 +1,57 @@
+.tPreview
+    color: white
+    text-decoration: none
+
+    img
+        width: 100%
+
+    .circle
+        position: absolute
+        bottom: 6em
+        left: 50%
+        transform: translateX(-50%)
+
+    .cta
+        arrowSize = 1.5em
+        position: relative
+        display: block
+        text-align: center
+
+        &:before
+            position: absolute
+            top: -2 * arrowSize
+            left: 50%
+            content: ''
+            display: block
+            width: 0
+            height: 0
+            border: arrowSize solid transparent
+            border-bottom-color: $colour.pink
+            transition: border-bottom-color .2s
+            transform: translateX(-50%)
+
+    &:hover
+        img
+            opacity: .5
+
+        .cta
+            background-color: $colour.yellow
+
+            &:before
+                border-bottom-color: $colour.yellow
+
+    @media $screen.sm
+        svg
+            display: none
+
+        .cta
+            min-height: 2.5em
+            padding: 1em 0
+
+    @media $screen.lg
+        &:hover
+            .circle
+                opacity: 1
+
+        .cta
+            font-size: _px2em(17px)
