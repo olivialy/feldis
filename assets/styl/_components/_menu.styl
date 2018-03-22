@@ -22,9 +22,31 @@
         fill: currentColor
 
     &-active
+        arrowSize = .6em
         a
+            position: relative
+            display: inline-block
             color: $colour.pink
-            text-decoration: underline
+
+            &:before
+                position: absolute
+                bottom: 0
+                width: 100%
+                content: ''
+                display: block
+                border-bottom: 1px solid
+
+            &:after
+                position: absolute
+                bottom: -2*arrowSize
+                left: 50%
+                content: ''
+                display: block
+                width: 0
+                height: 0
+                border: arrowSize solid transparent
+                border-top-color: currentColor
+                transform: translateX(-50%)
 
         li:not(.menu-active) a
             color: $colour.default

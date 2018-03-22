@@ -23,14 +23,14 @@
         </p>
         <nav id="menu" class="rHeader-nav">
             <ul class="rHeader-nav-main menu">
-                <li<?php if($page == 'Accueil') echo ' class="menu-active"' ?>><a href="Accueil"><svg height="18" width="18"><use xlink:href="#symbol-home"></use></svg> <span class="sr-only"> Accueil</span></a></li>
-                <li<?php if($page == 'Entreprise') echo ' class="menu-active"' ?>><a href="Entreprise">L'entreprise</a></li>
-                <li<?php if($page == 'Competences') echo ' class="menu-active"' ?>><a href="Competences">Compétences</a></li>
-                <li<?php if($page == 'Certifications') echo ' class="menu-active"' ?>><a href="Certifications">Certifications</a></li>
-                <li<?php if($page == 'Clients') echo ' class="menu-active"' ?>><a href="Clients">Cas clients</a></li>
-                <li<?php if($page == 'Environnement') echo ' class="menu-active"' ?>><a href="Environnement">Environnement</a></li>
-                <li<?php if($page == 'Actus') echo ' class="menu-active"' ?>><a href="Actus">Actus</a></li>
-                <li<?php if($page == 'Offres') echo ' class="menu-active"' ?>><a href="Certifications">Offres</a></li>
+                <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil"><svg height="18" width="18"><use xlink:href="#symbol-home"></use></svg> <span class="sr-only"> Accueil</span></a></li>
+                <li<?php if($page == 'entreprise') echo ' class="menu-active"' ?>><a href="Entreprise">L'entreprise</a></li>
+                <li<?php if($page == 'competences') echo ' class="menu-active"' ?>><a href="Competences">Compétences</a></li>
+                <li<?php if($page == 'certifications') echo ' class="menu-active"' ?>><a href="Certifications">Certifications</a></li>
+                <li<?php if($page == 'clients') echo ' class="menu-active"' ?>><a href="Clients">Cas clients</a></li>
+                <li<?php if($page == 'environnement') echo ' class="menu-active"' ?>><a href="Environnement">Environnement</a></li>
+                <li<?php if($page == 'actus') echo ' class="menu-active"' ?>><a href="Actus">Actus</a></li>
+                <li<?php if($page == 'offres') echo ' class="menu-active"' ?>><a href="Certifications">Offres</a></li>
 
             </ul>
             <div class="rHeader-nav-aside">
