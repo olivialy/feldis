@@ -7,7 +7,7 @@
 </div>
 <section class="wrap pt2 pb6">
     <p class="wrap-small align-center mb2">
-        <strong>Rénovation de logements, bureaux, parties communes, hôtels, NOUS SOMMES DEPUIS 40 ANS au service des collectivités, organismes privés ou particuliers pour la réalisation des travaux de second œuvre. Découvrez l’ensemble de nos compétences au service de tous vos projets.</strong>
+        <strong>Notre expérience nous permet de nous adapter en fonction de votre secteur d’activité. Nous avons mis en place des process qui répondent à vos obligations et vos attentes.</strong>
     </p>
     <ul class="rCards">
         <li class="rCards-child">
