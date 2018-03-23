@@ -1,0 +1,87 @@
+.card
+    display: block
+    background-color: #f6f4f2;
+    color: white
+    font-size: _px2em(11px)
+    text-align: center
+    text-decoration: none
+
+    &-title
+        padding: .6em 0 .4em
+        background-color: $colour.pink
+        text-transform: uppercase
+        transition: background-color .2s
+
+        > svg
+            margin-top: -.2em
+            vertical-align: middle
+
+    &-content
+        position: relative
+        padding: 1em 0 2.5em
+        background-repeat: no-repeat
+        background-position: top center
+        background-size: cover
+
+        &-hover
+            opacity: 0
+            transition: opacity .2s
+
+        &:before
+            position: absolute
+            content: ''
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background-color: white
+            opacity: 0
+            transition: opacity .2s
+
+        &:after
+            arrowSize = 1.5em
+            position: absolute
+            bottom: 0
+            left: 50%
+            content: ''
+            display: block
+            width: 0
+            height: 0
+            border: arrowSize solid transparent
+            border-bottom-color: $colour.pink
+            transition: border-bottom-color .2s
+            transform: translateX(-50%)
+
+    images = peinture menuiserie ravalement sol platre vitre
+
+    for image in images
+        &-{image} &-content
+            background-image: "url(../img/card-%s.jpg)" % s(image)
+
+
+    &:hover &-title
+        background-color: $colour.yellow
+
+    &:hover &-content
+        &-hover
+            opacity: 1
+
+        &:before
+            opacity: .5
+
+        &:after
+            border-bottom-color: $colour.yellow
+
+    @media $screen.sm
+        &-title
+            > svg
+                display: none
+
+        &-content
+            padding-top: 50%
+
+        &-content-hover
+            display: none!important
+
+    @media $screen.lg
+        font-size: _px2em(17px)

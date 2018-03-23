@@ -11,57 +11,63 @@
     </p>
     <ul class="rCards">
         <li class="rCards-child">
-            <a href="#" class="tPreview">
-                <img src="web/img/competence-01.jpg" alt="peinture" width="325" height="263" />
-                <p class="circle circle-yellow circle-hidden">
-                    <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-peinture"></use></svg>
+            <a href="#" class="card card-peinture">
+                <p class="card-content">
+                    <span class="card-content-hover circle circle-yellow">
+                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-peinture"></use></svg>
+                    </span>
                 </p>
-                <span class="cta cta-pink">Peinture <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></span>
+                <p class="card-title">Peinture <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="tPreview">
-                <img src="web/img/competence-02.jpg" alt="peinture" width="325" height="263" />
-                <p class="circle circle-yellow circle-hidden">
-                    <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-menuiserie"></use></svg>
+            <a href="#" class="card card-menuiserie">
+                <p class="card-content">
+                    <span class="card-content-hover circle circle-yellow">
+                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-menuiserie"></use></svg>
+                    </span>
                 </p>
-                <span class="cta cta-pink">Menuiserie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></span>
+                <p class="card-title">Menuiserie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="tPreview">
-                <img src="web/img/competence-03.jpg" alt="peinture" width="325" height="263" />
-                <p class="circle circle-yellow circle-hidden">
-                    <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-vitre"></use></svg>
+            <a href="#" class="card card-vitre">
+                <p class="card-content">
+                    <span class="card-content-hover circle circle-yellow">
+                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-vitre"></use></svg>
+                    </span>
                 </p>
-                <span class="cta cta-pink">Vitrerie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></span>
+                <p class="card-title">Vitrerie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="tPreview">
-                <img src="web/img/competence-04.jpg" alt="peinture" width="325" height="263" />
-                <p class="circle circle-yellow circle-hidden">
-                    <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-ravalement"></use></svg>
+            <a href="#" class="card card-ravalement">
+                <p class="card-content">
+                    <span class="card-content-hover circle circle-yellow">
+                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-ravalement"></use></svg>
+                    </span>
                 </p>
-                <span class="cta cta-pink">Ravalement <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></span>
+                <p class="card-title">Ravalement <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="tPreview">
-                <img src="web/img/competence-05.jpg" alt="peinture" width="325" height="263" />
-                <p class="circle circle-yellow circle-hidden">
-                    <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-sol"></use></svg>
+            <a href="#" class="card card-sol">
+                <p class="card-content">
+                    <span class="card-content-hover circle circle-yellow">
+                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-sol"></use></svg>
+                    </span>
                 </p>
-                <span class="cta cta-pink">Revêtement de sol <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></span>
+                <p class="card-title">Revêtement de sols <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="tPreview">
-                <img src="web/img/competence-06.jpg" alt="peinture" width="325" height="263" />
-                <p class="circle circle-yellow circle-hidden">
-                    <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-platre"></use></svg>
+            <a href="#" class="card card-platre">
+                <p class="card-content">
+                    <span class="card-content-hover circle circle-yellow">
+                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-platre"></use></svg>
+                    </span>
                 </p>
-                <span class="cta cta-pink">Plâtre <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></span>
+                <p class="card-title">Plâtrerie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
             </a>
         </li>
     </ul>

@@ -26,6 +26,7 @@
                 <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil"><svg height="18" width="18"><use xlink:href="#symbol-home"></use></svg> <span class="sr-only"> Accueil</span></a></li>
                 <li<?php if($page == 'entreprise') echo ' class="menu-active"' ?>><a href="Entreprise">L'entreprise</a></li>
                 <li<?php if($page == 'competences') echo ' class="menu-active"' ?>><a href="Competences">Compétences</a></li>
+                <li<?php if($page == 'secteurs') echo ' class="menu-active"' ?>><a href="Secteurs">Secteurs</a></li>
                 <li<?php if($page == 'certifications') echo ' class="menu-active"' ?>><a href="Certifications">Certifications</a></li>
                 <li<?php if($page == 'clients') echo ' class="menu-active"' ?>><a href="Clients">Cas clients</a></li>
                 <li<?php if($page == 'environnement') echo ' class="menu-active"' ?>><a href="Environnement">Environnement</a></li>
@@ -43,7 +44,7 @@
 
     <!-- header: sub nav -->
     <?php
-    if (in_array($page, ['competences'])) {
+    if (in_array($page, ['competences', 'secteurs'])) {
         include_once('templates/_components/_submenu.php');
     }
     ?>
