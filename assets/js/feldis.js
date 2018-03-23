@@ -54,6 +54,29 @@ $(function() {
     //    }
     //});
 
+    // works
+    $('#trigger-work-rows').on('click', function(e) {
+        e.preventDefault();
+
+        var $this = $(this);
+        var showIndex = parseInt($(this).attr('data-show'));
+        var maxIndex = parseInt($(this).attr('data-maxindex'));
+
+        if (showIndex <= maxIndex) {
+            // show items whose [data-index] value = showIndex
+            var $targetRows = $('[data-index="' + showIndex + '"]', '#works');
+            $targetRows.slideDown();
+
+            // update [data-show] value to trigger next items
+            $this.attr('data-show', showIndex + 1);
+
+            // hide button if we've reached the last line
+            if (showIndex == maxIndex) {
+                $this.fadeOut();
+            }
+        }
+    });
+
     // modals
     function toggleModal($modal) {
         // open/close modal

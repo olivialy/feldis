@@ -109,7 +109,7 @@
         </div>
         <div class="rTwins-child bg-purple tHP-latest">
             <div class="rTwins-child-content">
-                <h2>Nos Réalisations</h2>
+                <h2>Nos Actus</h2>
                 <p>Retrouvez toutes les actualités <br />et informations de Feldis & Leviaux. </p>
                 <ul class="teasers mt2 mb1">
                     <li class="teasers-item">

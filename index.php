@@ -23,7 +23,7 @@
         </p>
         <nav id="menu" class="rHeader-nav">
             <ul class="rHeader-nav-main menu">
-                <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil"><svg height="18" width="18"><use xlink:href="#symbol-home"></use></svg> <span class="sr-only"> Accueil</span></a></li>
+                <li><a href="Accueil"><svg height="18" width="18"><use xlink:href="#symbol-home"></use></svg> <span class="sr-only"> Accueil</span></a></li>
                 <li<?php if($page == 'entreprise') echo ' class="menu-active"' ?>><a href="Entreprise">L'entreprise</a></li>
                 <li<?php if($page == 'competences') echo ' class="menu-active"' ?>><a href="Competences">Compétences</a></li>
                 <li<?php if($page == 'secteurs') echo ' class="menu-active"' ?>><a href="Secteurs">Secteurs</a></li>
