@@ -11,11 +11,58 @@
     </p>
     <ul class="rCards">
         <li class="rCards-child">
-            <a href="#" class="tPreview">
-                <p class="circle circle-yellow">
-                    <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-peinture"></use></svg>
+            <a href="#" class="card">
+                <p class="card-content">
+                    <span class="circle circle-colors">
+                        <svg height="60" width="60"><use xlink:href="#symbol-sector-collectivite"></use> </svg>
+                        Collectivités<br />locales
+                    </span>
                 </p>
-                <span class="cta cta-pink">Peinture <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></span>
+                <p class="card-title">Secteur <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
+            </a>
+        </li>
+        <li class="rCards-child">
+            <a href="#" class="card">
+                <p class="card-content">
+                    <span class="circle circle-colors">
+                        <svg height="60" width="60"><use xlink:href="#symbol-sector-assurance"></use> </svg>
+                        Assurances
+                    </span>
+                </p>
+                <p class="card-title">Secteur <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
+            </a>
+        </li>
+        <li class="rCards-child">
+            <a href="#" class="card">
+                <p class="card-content">
+                    <span class="circle circle-colors">
+                        <svg height="60" width="60"><use xlink:href="#symbol-sector-hotel"></use> </svg>
+                        Hôtellerie
+                    </span>
+                </p>
+                <p class="card-title">Secteur <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
+            </a>
+        </li>
+        <li class="rCards-child">
+            <a href="#" class="card">
+                <p class="card-content">
+                    <span class="circle circle-colors">
+                        <svg height="60" width="60"><use xlink:href="#symbol-sector-bailleur"></use> </svg>
+                        Bailleurs<br />sociaux
+                    </span>
+                </p>
+                <p class="card-title">Secteur <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
+            </a>
+        </li>
+        <li class="rCards-child">
+            <a href="#" class="card">
+                <p class="card-content">
+                    <span class="circle circle-colors">
+                        <svg height="60" width="60"><use xlink:href="#symbol-sector-grandcompte"></use> </svg>
+                        Grands<br />comptes
+                    </span>
+                </p>
+                <p class="card-title">Secteur <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
             </a>
         </li>
     </ul>

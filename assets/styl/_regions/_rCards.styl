@@ -1,13 +1,15 @@
 .rCards
     {clearfix}
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
     margin: 0 -1em
     list-style: none
 
     &-child
         position: relative
-        float: left
-        width:  calc(50% - 1em)
-        margin: .5em
+        width: calc(100% - 2em)
+        margin: .5em auto
 
     @media $screen.md
         &-child

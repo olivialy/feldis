@@ -55,6 +55,10 @@
 <?php require_once('templates/_pages/_' . $page . '.php');?>
 
 
+<!-- contact form -->
+<?php include_once('templates/_components/_contactform.php'); ?>
+
+
 <!-- footer -->
 <?php require_once('templates/_components/_footer.php');?>
 

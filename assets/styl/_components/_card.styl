@@ -1,14 +1,14 @@
 .card
     display: block
     background-color: #f6f4f2;
-    color: white
-    font-size: _px2em(11px)
     text-align: center
     text-decoration: none
 
     &-title
         padding: .6em 0 .4em
         background-color: $colour.pink
+        color: white
+        font-size: _px2em(17px)
         text-transform: uppercase
         transition: background-color .2s
 
@@ -20,7 +20,7 @@
         position: relative
         padding: 1em 0 2.5em
         background-repeat: no-repeat
-        background-position: top center
+        background-position: center
         background-size: cover
 
         &-hover
@@ -58,6 +58,15 @@
         &-{image} &-content
             background-image: "url(../img/card-%s.jpg)" % s(image)
 
+    &:hover
+        *
+            color: white
+
+        svg
+            fill: currentColor
+
+        .circle-colors
+            background-image: url(../img/circle-colors-hover.png)
 
     &:hover &-title
         background-color: $colour.yellow
@@ -71,17 +80,3 @@
 
         &:after
             border-bottom-color: $colour.yellow
-
-    @media $screen.sm
-        &-title
-            > svg
-                display: none
-
-        &-content
-            padding-top: 50%
-
-        &-content-hover
-            display: none!important
-
-    @media $screen.lg
-        font-size: _px2em(17px)

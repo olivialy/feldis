@@ -13,8 +13,8 @@
         <li class="rCards-child">
             <a href="#" class="card card-peinture">
                 <p class="card-content">
-                    <span class="card-content-hover circle circle-yellow">
-                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-peinture"></use></svg>
+                    <span class="card-content-hover circle">
+                        <svg height="96" width="96"><use xlink:href="#symbol-skill-peinture"></use></svg>
                     </span>
                 </p>
                 <p class="card-title">Peinture <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
@@ -23,8 +23,8 @@
         <li class="rCards-child">
             <a href="#" class="card card-menuiserie">
                 <p class="card-content">
-                    <span class="card-content-hover circle circle-yellow">
-                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-menuiserie"></use></svg>
+                    <span class="card-content-hover circle">
+                        <svg height="96" width="96"><use xlink:href="#symbol-skill-menuiserie"></use></svg>
                     </span>
                 </p>
                 <p class="card-title">Menuiserie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
@@ -33,8 +33,8 @@
         <li class="rCards-child">
             <a href="#" class="card card-vitre">
                 <p class="card-content">
-                    <span class="card-content-hover circle circle-yellow">
-                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-vitre"></use></svg>
+                    <span class="card-content-hover circle">
+                        <svg height="96" width="96"><use xlink:href="#symbol-skill-vitre"></use></svg>
                     </span>
                 </p>
                 <p class="card-title">Vitrerie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
@@ -43,8 +43,8 @@
         <li class="rCards-child">
             <a href="#" class="card card-ravalement">
                 <p class="card-content">
-                    <span class="card-content-hover circle circle-yellow">
-                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-ravalement"></use></svg>
+                    <span class="card-content-hover circle">
+                        <svg height="96" width="96"><use xlink:href="#symbol-skill-ravalement"></use></svg>
                     </span>
                 </p>
                 <p class="card-title">Ravalement <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
@@ -53,8 +53,8 @@
         <li class="rCards-child">
             <a href="#" class="card card-sol">
                 <p class="card-content">
-                    <span class="card-content-hover circle circle-yellow">
-                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-sol"></use></svg>
+                    <span class="card-content-hover circle">
+                        <svg height="96" width="96"><use xlink:href="#symbol-skill-sol"></use></svg>
                     </span>
                 </p>
                 <p class="card-title">Revêtement de sols <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
@@ -63,8 +63,8 @@
         <li class="rCards-child">
             <a href="#" class="card card-platre">
                 <p class="card-content">
-                    <span class="card-content-hover circle circle-yellow">
-                        <svg height="96" width="96" class="circle-content"><use xlink:href="#symbol-skill-platre"></use></svg>
+                    <span class="card-content-hover circle">
+                        <svg height="96" width="96"><use xlink:href="#symbol-skill-platre"></use></svg>
                     </span>
                 </p>
                 <p class="card-title">Plâtrerie <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></p>
