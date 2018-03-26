@@ -36,8 +36,8 @@
             RAVALEMENT</p>
     </div>
 </div>
-<div class="bg-pink">
-    <div class="media wrap pt3 pb3">
+<div class="bg-pink pt3 pb3">
+    <div class="media wrap">
         <p class="media-preview">
             <a id="toto" href="https://www.youtube.com/watch?v=GQNHTezZ0cQ" class="overlay" data-trigger="mp-video">
                 <img src="web/img/works/work-01_video-preview.jpg" alt="titre de l'image" />
@@ -49,12 +49,12 @@
         </div>
     </div>
 </div>
-<div class="media wrap pt3">
-    <p class="media-preview ">
+<div class="media wrap">
+    <p class="media-preview hide-sm">
         <img src="web/img/works/work-01_slide-01.jpg" alt="titre de l'image" />
     </p>
-    <div class="media-detail pt1">
-        <p class="media-heading color-pink">Découvrez <br />toutes les photos</p>
+    <div class="media-detail">
+        <p class="media-heading color-pink pt1">Découvrez <br />toutes les photos</p>
         <p class="media-subheading">Avant les travaux</p>
         <p>Nous avions sur ce chantier deux types de structures : 50% maçonnerie, 50% serres horticoles. La principale difficulté était donc les points de jonction entre la maçonnerie et les serres.</p>
         <ul class="media-thumbs">
@@ -64,11 +64,11 @@
         </ul>
     </div>
 </div>
-<div class="media wrap pt3">
-    <p class="media-preview ">
+<div class="media wrap">
+    <p class="media-preview hide-sm">
         <img src="web/img/works/work-01_slide-02.jpg" alt="titre de l'image" />
     </p>
-    <div class="media-detail pt1">
+    <div class="media-detail">
         <p class="media-subheading mt2">Pendant les travaux</p>
         <p>Le choix architectural de la toiture plate sans acrotère nous a forcé à mettre en  place des systèmes constructifs différents des standards et habitudes des entreprises (Acrotère de 11 cm puis chape et étanchéité).</p>
         <ul class="media-thumbs">
@@ -78,11 +78,11 @@
         </ul>
     </div>
 </div>
-<div class="media wrap pt3 pb2">
-    <p class="media-preview ">
+<div class="media wrap pb2">
+    <p class="media-preview hide-sm">
         <img src="web/img/works/work-01_slide-03.jpg" alt="titre de l'image" />
     </p>
-    <div class="media-detail pt1">
+    <div class="media-detail">
         <p class="media-subheading mt2">Après les travaux</p>
         <p>Texte à venir texte à venir Texte à venir texte à venir Texte à venirà venir Texte à venir texte à venir Texte à venir texte à venir Texte à venir texte à venir Texte à venir texte à venir Texte à venir texte à venir.</p>
         <ul class="media-thumbs">
@@ -101,7 +101,7 @@
     </p>
 </div>
 <ul class="pager pb4">
-    <li><a href="#">&lt;&lt; PROJET  PRÉCÉDENT</a></li>
-    <li><a href="#">Retour aux cas clients</a></li>
-    <li><a href="#">PROJET  SUIVANT &gt;&gt;</a></li>
+    <li><a href="#">&lt;&lt; <span class="hide-sm"> PROJET</span>PRÉCÉDENT</a></li>
+    <li><a href="#">Retour<span class="hide-sm"> aux cas clients</span></a></li>
+    <li><a href="#"><span class="hide-sm">PROJET </span>SUIVANT &gt;&gt;</a></li>
 </ul>

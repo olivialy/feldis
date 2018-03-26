@@ -1,9 +1,18 @@
 // Grid helpers
 for breakpoint, query in $screen
     @media query
+        // display
+        .show-{breakpoint}
+            display: block
+
+        .hide-{breakpoint}
+            display: none
+
+        // column sizes
         for i in (1..$columns)
             .{breakpoint}-{i}
                 _column(i)
 
             .{breakpoint}-offset-{i}
                 _offset(i)
+

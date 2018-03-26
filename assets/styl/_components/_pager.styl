@@ -3,6 +3,7 @@
     text-align: center
 
     a
+        font-size: _px2em(12x)
         color: $colour.default
 
         &:hover
@@ -11,3 +12,6 @@
     li
         display: inline
         padding: 0 1em
+
+    @media $screen.md
+        font-size: 1em
