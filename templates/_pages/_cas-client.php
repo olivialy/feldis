@@ -7,6 +7,8 @@
         </div>
     </div>
 </div>
+
+<!-- project description -->
 <div class="showcase wrap pt4 pb2">
     <ul class="showcase-preview thumblist">
         <li><img src="web/img/works/work-01_preview-01.jpg" alt="titre de l'image" /> </li>
@@ -14,7 +16,7 @@
         <li><img src="web/img/works/work-01_preview-03.jpg" alt="titre de l'image" /> </li>
         <li><img src="web/img/works/work-01_preview-04.jpg" alt="titre de l'image" /> </li>
     </ul>
-    <div class="showcase-desc tContent">
+    <div class="showcase-desc">
         <p class="showcase-heading">Description du projet</p>
         <p>Le projet avait pour but de réaménager les serres existantes et  l’extension des locaux techniques, à vocation scolaire.</p>
         <p>La nouvelle construction est constituée de :</p>
@@ -36,6 +38,8 @@
             RAVALEMENT</p>
     </div>
 </div>
+
+<!-- video -->
 <div class="bg-pink pt3 pb3">
     <div class="media wrap">
         <p class="media-preview">
@@ -49,6 +53,8 @@
         </div>
     </div>
 </div>
+
+<!-- image galleries -->
 <div class="media wrap">
     <p class="media-preview hide-sm">
         <img src="web/img/works/work-01_slide-01.jpg" alt="titre de l'image" />

@@ -1,0 +1,28 @@
+.tArticle
+    h2
+        padding-bottom: 1.5em
+        color: $colour.pink
+        font-size: 1em
+        font-weight: normal
+        text-transform: uppercase
+
+    h3
+        font-size: 1em
+
+    p
+    ul
+        padding-bottom: 1.5em
+
+    li
+        padding-left: 1em
+        list-style: none
+        text-indent: -1em
+
+        &::before
+            content: ' '
+            display: inline-block
+            width: _px2em(10px)
+            height: @width
+            border-radius: .5 * @width
+            margin-right: .3em
+            background-color: $colour.pink
