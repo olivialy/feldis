@@ -1,0 +1,24 @@
+.thumblist
+    {clearfix}
+
+    display: flex
+    flex-wrap: wrap
+    list-style: none
+
+    li
+        width: calc(25% - 1em)
+        margin-right: 1em
+        margin-bottom: 1em
+
+    @media $screen.md
+        li
+            width: 100%
+            margin-right: 0
+
+    @media $screen.lg
+        li
+            width: calc(50% - .5em)
+
+            &:nth-child(odd)
+                margin-right: 1em
+

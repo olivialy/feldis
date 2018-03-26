@@ -1,0 +1,46 @@
+.media
+    //display: flex
+
+    &-heading
+        margin-bottom: .5em
+        font-size: _px2em(25px)
+        font-weight: bold
+        line-height: 1
+
+        &-bordered
+            _bordered({mr: 0em, ml:0em})
+
+    &-subheading
+        margin-bottom: .5em
+        padding: .5em
+        background-color: $colour.pink
+        color: white
+        font-weight: bold
+        text-transform: uppercase
+
+    &-thumbs
+        {clearfix}
+        padding-top: .5em
+        list-style: none
+
+        li
+            float: left
+            margin: 0 .5em .5em 0
+
+    @media $screen.md
+        {clearfix}
+
+        &-preview
+        &-detail
+            float: left
+            _column(6)
+
+        &-preview
+            padding-right: 2em
+
+    @media $screen.lg
+        &-preview
+            _column(8)
+
+        &-detail
+            _column(4)

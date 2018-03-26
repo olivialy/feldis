@@ -11,7 +11,7 @@
 
     <ul id="works" class="rCards mb1">
         <li class="rCards-child">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-01.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -21,7 +21,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-02.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -31,7 +31,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-03.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -41,7 +41,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-02.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -51,7 +51,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-03.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -61,7 +61,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-01.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -71,7 +71,7 @@
             </a>
         </li>
         <li class="rCards-child" data-index="1">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-03.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -81,7 +81,7 @@
             </a>
         </li>
         <li class="rCards-child" data-index="1">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-01.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -91,7 +91,7 @@
             </a>
         </li>
         <li class="rCards-child" data-index="1">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-02.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -101,7 +101,7 @@
             </a>
         </li>
         <li class="rCards-child" data-index="2">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-01.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />
@@ -111,7 +111,7 @@
             </a>
         </li>
         <li class="rCards-child" data-index="2">
-            <a href="#" class="work">
+            <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-02.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-content">
                     <strong>Maison de santé</strong><br />

@@ -1,5 +1,5 @@
 <footer class="tFooter bg-yellow align-center pt3 pb3">
-    <section class="wrap">
+    <div class="wrap">
         <ul class="menu">
             <li><a href="#">Mentions légales</a></li>
             <li><a href="#">Entreprise</a></li>
@@ -16,5 +16,5 @@
             Tel : 01.64.39.17.87<br />
             Fax: 01.64.39.25.49 </address>
         <p>Copyright Feldis & Leviaux 2017</p>
-    </section>
+    </div>
 </footer>

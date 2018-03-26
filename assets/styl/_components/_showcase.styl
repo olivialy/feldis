@@ -1,0 +1,32 @@
+.showcase
+    display: flex
+    align-items: flex-start
+
+    &-heading
+        font-size: _px2em(22px)
+        line-height: 1
+
+        &:after
+            content: ''
+            display: block
+            width: 3em
+            margin: .5em 0
+            border-bottom: 6px solid
+
+    @media $screen.sm
+        flex-direction: column
+
+    @media $screen.md
+        &-preview
+            width: 30%
+            padding-right: 2em
+
+        &-desc
+            width: 70%
+
+    @media $screen.lg
+        &-preview
+            _column(8)
+
+        &-desc
+            _column(4)

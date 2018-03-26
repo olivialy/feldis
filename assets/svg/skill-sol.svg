@@ -3,14 +3,9 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#BD0650;stroke-width:0.1933;stroke-miterlimit:10;}
+	.st0{fill:#BD0650;}
 </style>
-<g>
-	<polygon class="st0" points="5.5,11.9 23.9,11.9 30,18.1 0,18.1 	"/>
-	<line class="st0" x1="8.1" y1="11.9" x2="5.2" y2="18.1"/>
-	<line class="st0" x1="21.1" y1="11.9" x2="24" y2="18.1"/>
-	<line class="st0" x1="11.2" y1="11.9" x2="10.1" y2="18.1"/>
-	<line class="st0" x1="17.8" y1="11.9" x2="18.8" y2="18.1"/>
-	<line class="st0" x1="14.3" y1="11.9" x2="14.4" y2="18.1"/>
-</g>
+<path class="st0" d="M24,11.8L24,11.8l-18.5,0l-5.7,6.4h30.4L24,11.8z M29.8,18h-5.7l-2.8-6h2.6L29.8,18z M11.3,12h2.9l0.1,6h-4.1
+	L11.3,12z M10,18H5.4l2.8-6h2.9L10,18z M14.4,12h3.3l1,6h-4.2L14.4,12z M17.9,12H21l2.8,6h-5L17.9,12z M5.5,12h2.4l-2.8,6H0.2
+	L5.5,12z"/>
 </svg>
