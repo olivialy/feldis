@@ -6,6 +6,9 @@
     <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
     <title>Feldis</title>
     <link href="web/css/feldis.min.css"  rel="stylesheet">
+    <?php if ($page == 'cas-client') { ?>
+    <link href="web/css/magnific-popup.min.css"  rel="stylesheet">
+    <?php }?>
 </head>
 <body>
 <!-- svg symbols -->
@@ -73,6 +76,9 @@
 <!-- js -->
 <script src="web/js/html5shiv.min.js"></script>
 <script src="web/js/feldis.js"></script>
+<?php if ($page == 'cas-client') { ?>
+    <script src="web/js/jquery.magnific-popup.min.js"></script>
+<?php }?>
 
 </body>
 </html>

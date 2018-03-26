@@ -96,10 +96,21 @@ gulp.task('clean', function() {
 
 // assets
 gulp.task('assets', function() {
-    // Retrieve html5shiv web/ directory
+    // Retrieve html5shiv into web/ directory
     gulp.src(cfg.nodeDir + '/html5shiv/dist/html5shiv.min.js')
         .pipe(gulp.dest('web/js'));
 
+
+    // Retrieve magnific popup assets into web/ directory
+    gulp.src(cfg.nodeDir + '/magnific-popup/dist/jquery.magnific-popup.min.js')
+        .pipe(gulp.dest('web/js'));
+
+    gulp.src(cfg.nodeDir + '/magnific-popup/dist/magnific-popup.css')
+        .pipe(postcss([
+            cssnano()
+        ]))
+        .pipe(rename('magnific-popup.min.css'))
+        .pipe(gulp.dest('web/css'));
 });
 
 // build

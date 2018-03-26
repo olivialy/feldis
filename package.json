@@ -24,6 +24,7 @@
   "dependencies": {
     "headroom.js": "^0.9.4",
     "jquery": "^3.2.1",
+    "magnific-popup": "^1.1.0",
     "normalize.css": "^4.1.1"
   },
   "browserslist": [
