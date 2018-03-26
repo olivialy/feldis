@@ -8,7 +8,7 @@
 </div>
 <!-- content -->
 <section class="wrap tArticle pt4">
-    <h2>Octobre 2017 | Chantier</h2>
+    <h2 class="subheading">Octobre 2017 | Chantier</h2>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     <p>Praesent aliquam dolor pharetra felis varius fermentum. Suspendisse eget convallis massa, tempor varius lorem. Duis egestas dapibus metus vel imperdiet. Maecenas eu lorem quis mi ullamcorper convallis sed non est. Morbi pharetra, ex a consectetur cursus, nisi neque venenatis magna, eget tincidunt leo elit at urna. Vestibulum bibendum eleifend ligula pulvinar vehicula. Vivamus nisl purus, tristique nec diam id, accumsan viverra nulla. Curabitur nec lectus auctor, molestie leo eget, venenatis sapien. Nam eu tincidunt ante.</p>
     <p><img src="web/img/myimage.jpg" width="1028" height="685" alt="titre de l'image" /></p>

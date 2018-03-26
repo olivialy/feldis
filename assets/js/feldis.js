@@ -102,35 +102,39 @@ $(function() {
 
     // magnific popup
     $(document).ready(function() {
-        // images
-        $('.media-thumbs').each(function() {
-            $(this).magnificPopup({
-                delegate: 'a',
-                type: 'image',
-                gallery:{
-                    enabled:true
+        if ($('.media-thumbs').length) {
+            // images
+            $('.media-thumbs').each(function() {
+                $(this).magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    gallery:{
+                        enabled:true
+                    }
+                });
+            });
+        }
+
+        if ($('[data-trigger="mp-video"]').length) {
+            // video
+            $('[data-trigger="mp-video"]').magnificPopup({
+                type: 'iframe',
+                iframe: {
+                    markup: '<div class="mfp-iframe-scaler">' +
+                    '<div class="mfp-close"></div>' +
+                    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+                    '</div>',
+                    patterns: {
+                        youtube: {
+                            index: 'youtube.com/',
+                            id: 'v=',
+                            src: '//www.youtube.com/embed/%id%?autoplay=1'
+                        }
+                    },
+                    srcAction: 'iframe_src'
                 }
             });
-        });
-
-        // video
-        $('[data-trigger="mp-video"]').magnificPopup({
-            type: 'iframe',
-            iframe: {
-                markup: '<div class="mfp-iframe-scaler">'+
-                '<div class="mfp-close"></div>'+
-                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
-                '</div>',
-                patterns: {
-                    youtube: {
-                        index: 'youtube.com/',
-                        id: 'v=',
-                        src: '//www.youtube.com/embed/%id%?autoplay=1'
-                    }
-                },
-                srcAction: 'iframe_src'
-            }
-        });
+        }
     });
 
 });
