@@ -8,17 +8,20 @@
     h2
         padding: .5em 0 .75em
         color: $colour.pink
-        font-size: _px2em(12px)
+        font-size: _px2em(10px)
 
     img
-        border-top: 8px solid $colour.pink
+        border-top: 3px solid $colour.pink
 
     p
-        font-size: _px2em(15px)
+        font-size: _px2em(12px)
         font-weight: bold
 
     &-item
-        padding-bottom: 3em
+        padding-bottom: 2em
+
+        &[data-index]
+            display: none
 
         &-preview
             position: relative
@@ -38,3 +41,16 @@
     a:hover &-item-preview
             &:after
                 opacity: 1
+
+    @media $screen.md
+        h2
+            font-size: _px2em(12px)
+
+        img
+            border-top: 8px solid $colour.pink
+
+        p
+            font-size: _px2em(15px)
+
+        &-item
+            padding-bottom: 3em

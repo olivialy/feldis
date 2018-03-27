@@ -54,8 +54,8 @@ $(function() {
     //    }
     //});
 
-    // works
-    $('#trigger-work-rows').on('click', function(e) {
+    // works and news
+    $('#trigger-rows').on('click', function(e) {
         e.preventDefault();
 
         var $this = $(this);
@@ -64,7 +64,7 @@ $(function() {
 
         if (showIndex <= maxIndex) {
             // show items whose [data-index] value = showIndex
-            var $targetRows = $('[data-index="' + showIndex + '"]', '#works');
+            var $targetRows = $('[data-index="' + showIndex + '"]', '#listed-content');
             $targetRows.slideDown();
 
             // update [data-show] value to trigger next items

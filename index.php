@@ -33,7 +33,7 @@
                 <li<?php if ($page == 'certifications') echo ' class="menu-active"' ?>><a href="Certifications">Certifications</a></li>
                 <li<?php if (in_array($page, ['clients', 'cas-client'])) echo ' class="menu-active"' ?>><a href="Clients">Cas clients</a></li>
                 <li<?php if ($page == 'environnement') echo ' class="menu-active"' ?>><a href="Environnement">Environnement</a></li>
-                <li<?php if ($page == 'actus') echo ' class="menu-active"' ?>><a href="Actus">Actus</a></li>
+                <li<?php if (in_array($page, ['actus', 'article'])) echo ' class="menu-active"' ?>><a href="Actus">Actus</a></li>
                 <li<?php if ($page == 'offres') echo ' class="menu-active"' ?>><a href="Offres">Offres</a></li>
             </ul>
             <div class="rHeader-nav-aside">

@@ -9,7 +9,7 @@
     <p class="wrap-small mb3"><strong>Découvrez une sélection de nos chantiers classés par secteurs. Un aperçu des missions que nous réalisons quotidiennement pour tous nos clients.</strong></p>
     <?php include_once('templates/_components/_sectionnav.php'); ?>
 
-    <ul id="works" class="rCards mb1">
+    <ul id="listed-content" class="rCards mb1">
         <li class="rCards-child">
             <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-01.jpg" width="336" height="336" alt="titre de l'image" />
@@ -122,5 +122,5 @@
         </li>
     </ul>
 
-    <p class="mb3"><a id="trigger-work-rows" href="Clients/Tout" class="cta" data-maxindex="2" data-show="1">En voir +</a></p>
+    <p class="mb3"><a id="trigger-rows" href="Clients/Tout" class="cta" data-maxindex="2" data-show="1">En voir +</a></p>
 </section>

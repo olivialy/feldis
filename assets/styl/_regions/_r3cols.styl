@@ -1,8 +1,15 @@
 .r3cols
     {clearfix}
-    margin: 0 -1em
+    margin: 0 -.5em
 
     &-child
         float: left
-        width: calc(100%/3 - 2em)
-        margin: 0 1em 1em
+        width: calc(100%/3 - 1em)
+        margin: 0 .5em .5em
+
+    @media $screen.md
+        margin: 0 -1em
+
+        &-child
+            width: calc(100%/3 - 2em)
+            margin: 0 1em 1em
