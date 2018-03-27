@@ -1,3 +1,4 @@
+<!-- Liste des secteurs -->
 <div class="rCover rCover-secteurs">
     <div class="sectionhead">
         <div class="wrap">
@@ -11,7 +12,7 @@
     </p>
     <ul class="rCards">
         <li class="rCards-child">
-            <a href="#" class="card">
+            <a href="Secteur-Collectivite" class="card">
                 <p class="card-content">
                     <span class="circle circle-colors">
                         <svg height="60" width="60"><use xlink:href="#symbol-sector-collectivite"></use> </svg>
@@ -22,7 +23,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card">
+            <a href="Secteur-Assurance" class="card">
                 <p class="card-content">
                     <span class="circle circle-colors">
                         <svg height="60" width="60"><use xlink:href="#symbol-sector-assurance"></use> </svg>
@@ -33,7 +34,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card">
+            <a href="Secteur-Hotel" class="card">
                 <p class="card-content">
                     <span class="circle circle-colors">
                         <svg height="60" width="60"><use xlink:href="#symbol-sector-hotel"></use> </svg>
@@ -44,7 +45,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card">
+            <a href="Secteur-Bailleur" class="card">
                 <p class="card-content">
                     <span class="circle circle-colors">
                         <svg height="60" width="60"><use xlink:href="#symbol-sector-bailleur"></use> </svg>
@@ -55,7 +56,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card">
+            <a href="Secteur-GrandCompte" class="card">
                 <p class="card-content">
                     <span class="circle circle-colors">
                         <svg height="60" width="60"><use xlink:href="#symbol-sector-grandcompte"></use> </svg>

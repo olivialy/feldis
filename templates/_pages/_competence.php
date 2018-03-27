@@ -68,7 +68,7 @@
         <!-- slider -->
         <div id="slider" class="slider" data-slide-max="3">
             <!-- previous button -->
-            <button class="slider-previous" data-slide-action="previous" disabled><svg height="50" width="50"><use xlink:href="#symbol-arrow"></use> </svg></button>
+            <button class="slider-previous color-white" data-slide-action="previous" disabled><svg height="50" width="50"><use xlink:href="#symbol-arrow"></use> </svg></button>
 
             <!-- quotes container -->
             <div class="slider-container" data-slide-current="1" data-slide-max="3">
@@ -90,7 +90,7 @@
             </div>
 
             <!-- next button -->
-            <button class="slider-next" data-slide-action="next"><svg height="50" width="50"><use xlink:href="#symbol-arrow"></use> </svg></button>
+            <button class="slider-next color-white" data-slide-action="next"><svg height="50" width="50"><use xlink:href="#symbol-arrow"></use> </svg></button>
         </div>
 
     </div>

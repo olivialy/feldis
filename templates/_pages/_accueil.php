@@ -29,7 +29,7 @@
 <section class="tHP-sectors wrap align-center pt4 pb6">
     <p class="md-10 lg-7">Grâce à notre expérience, nous connaissons les process et les contraintes de votre secteur ce qui nous permet de vous offrir un accompagnement sur-mesure</p>
     <h2>Choisissez votre secteur</h2>
-    <ul class="rSector">
+    <ul class="rInlineBlocks">
         <li>
             <a href="#" class="circle circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-collectivite"></use> </svg>

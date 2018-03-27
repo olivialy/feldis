@@ -1,5 +1,6 @@
 <?php $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil'; ?>
-<?php $skill = isset($_GET['skill']) ? strtolower($_GET['skill']) : 0; ?>
+<?php $skill = isset($_GET['skill']) ? strtolower($_GET['skill']) : ''; ?>
+<?php $sector = isset($_GET['sector']) ? strtolower($_GET['sector']) : ''; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,7 +31,7 @@
                 <li><a href="Accueil"><svg height="18" width="18"><use xlink:href="#symbol-home"></use></svg> <span class="sr-only"> Accueil</span></a></li>
                 <li<?php if ($page == 'entreprise') echo ' class="menu-active"' ?>><a href="Entreprise">L'entreprise</a></li>
                 <li<?php if (in_array($page, ['competences', 'competence'])) echo ' class="menu-active"' ?>><a href="Competences">Compétences</a></li>
-                <li<?php if ($page == 'secteurs') echo ' class="menu-active"' ?>><a href="Secteurs">Secteurs</a></li>
+                <li<?php if (in_array($page, ['secteurs', 'secteur'])) echo ' class="menu-active"' ?>><a href="Secteurs">Secteurs</a></li>
                 <li<?php if ($page == 'certifications') echo ' class="menu-active"' ?>><a href="Certifications">Certifications</a></li>
                 <li<?php if (in_array($page, ['clients', 'cas-client'])) echo ' class="menu-active"' ?>><a href="Clients">Cas clients</a></li>
                 <li<?php if ($page == 'environnement') echo ' class="menu-active"' ?>><a href="Environnement">Environnement</a></li>
@@ -48,7 +49,7 @@
 
     <!-- header: sub nav -->
     <?php
-    if (in_array($page, ['competences', 'competence', 'secteurs'])) {
+    if (in_array($page, ['competences', 'competence', 'secteurs', 'secteur'])) {
         include_once('templates/_components/_submenu.php');
     }
     ?>
