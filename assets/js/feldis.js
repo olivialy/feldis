@@ -4,11 +4,12 @@ $(function() {
         $header = $('#header'),
         $menu = $('#menu'),
         $keyfigures = $('#keyfigures'),
+        $slider = $('#slider'),
         counted = false;
 
     // headroom.js
     // handle .header show/hide animation
-    $("#header").headroom({
+    $header.headroom({
         "offset": 50,
         "tolerance": 5,
         "classes": {
@@ -76,6 +77,35 @@ $(function() {
             }
         }
     });
+
+    // slider
+    if ($slider.length) {
+        var slideCurrent = 1,
+            slideMax = $slider.attr('data-slide-max');
+
+        $('[data-slide-action]', $slider).on('click', function() {
+            var $this = $(this),
+                action = $this.attr('data-slide-action'),
+                $current = $('[data-slide-index="' + slideCurrent + '"]');
+
+            console.log('action: ' + action);
+            console.log('$current: ' + $current);
+            //console.log('$current: ' + $current);
+
+            // hide current quote
+            $current.slideUp();
+
+            // show next quote
+            slideCurrent = ('next' == action) ? slideCurrent + 1 : slideCurrent - 1;
+            $('[data-slide-index="' + slideCurrent + '"]').delay(300).slideDown();
+
+            // update buttons status
+            $('[data-slide-action]', $slider).removeAttr('disabled');
+            if(slideCurrent == slideMax || slideCurrent == 1) {
+                $this.attr('disabled', 'disabled')
+            }
+        });
+    }
 
     // modals
     function toggleModal($modal) {

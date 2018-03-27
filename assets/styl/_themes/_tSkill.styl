@@ -8,6 +8,18 @@
     p
         padding-bottom: 1em
 
+    > div:nth-child(odd)
+        padding-right: 1em
+        padding-left: 1em
+
     > div:nth-child(even)
+        display: none
         background: url(../img/bg-skills.jpg) no-repeat left center
         background-size: cover
+
+    @media $screen.md
+        > div:nth-child(odd)
+            padding-right: 2em
+
+        > div:nth-child(even)
+            display: block

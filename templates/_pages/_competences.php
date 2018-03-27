@@ -32,7 +32,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="Competence-Vitrerie" class="card card-vitre">
+            <a href="Competence-Vitre" class="card card-vitre">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-vitre"></use></svg>
@@ -62,7 +62,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="Competence-Platrerie" class="card card-platre">
+            <a href="Competence-Platre" class="card card-platre">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-platre"></use></svg>
