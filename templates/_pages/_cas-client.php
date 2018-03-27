@@ -108,6 +108,6 @@
 </div>
 <ul class="pager pb4">
     <li><a href="#">&lt;&lt; <span class="hide-sm"> PROJET</span>PRÉCÉDENT</a></li>
-    <li><a href="#">Retour<span class="hide-sm"> aux cas clients</span></a></li>
+    <li><a href="Clients">Retour<span class="hide-sm"> aux cas clients</span></a></li>
     <li><a href="#"><span class="hide-sm">PROJET </span>SUIVANT &gt;&gt;</a></li>
 </ul>

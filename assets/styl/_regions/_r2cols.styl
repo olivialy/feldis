@@ -1,0 +1,37 @@
+.r2cols
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    > p
+        padding-bottom: 1em
+
+    img
+        display: inline-block
+
+    &-child
+        width: 100%
+
+    @media $screen.sm
+        text-align: center
+
+        &-child
+            padding-top: 1em
+            padding-bottom: 1em
+
+        &-first
+            order: -1
+
+    @media $screen.md
+        flex-direction: row
+
+        &-child
+            width: 50%
+            padding-right: 1em
+            padding-left: 1em
+
+            &:first-child
+                padding-left: 0
+
+            &:last-child
+                padding-right: 0
