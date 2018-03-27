@@ -1,3 +1,4 @@
+<!-- Liste des compétences -->
 <div class="rCover rCover-competences">
     <div class="sectionhead">
         <div class="wrap">
@@ -11,7 +12,7 @@
     </p>
     <ul class="rCards">
         <li class="rCards-child">
-            <a href="#" class="card card-peinture">
+            <a href="Competence-Peinture" class="card card-peinture">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-peinture"></use></svg>
@@ -21,7 +22,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card card-menuiserie">
+            <a href="Competence-Menuiserie" class="card card-menuiserie">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-menuiserie"></use></svg>
@@ -31,7 +32,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card card-vitre">
+            <a href="Competence-Vitrerie" class="card card-vitre">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-vitre"></use></svg>
@@ -41,7 +42,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card card-ravalement">
+            <a href="Competence-Ravalement" class="card card-ravalement">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-ravalement"></use></svg>
@@ -51,7 +52,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card card-sol">
+            <a href="Competence-Sol" class="card card-sol">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-sol"></use></svg>
@@ -61,7 +62,7 @@
             </a>
         </li>
         <li class="rCards-child">
-            <a href="#" class="card card-platre">
+            <a href="Competence-Platrerie" class="card card-platre">
                 <p class="card-content">
                     <span class="card-content-hover circle">
                         <svg height="96" width="96"><use xlink:href="#symbol-skill-platre"></use></svg>

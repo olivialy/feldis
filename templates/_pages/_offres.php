@@ -1,11 +1,11 @@
 <div class="rCover">
     <div class="sectionhead sectionhead-pink">
         <div class="wrap">
-            <h1 class="sectionhead-title color-white">Nos offres d'emploi</h1>
+            <h1 class="sectionhead-title">Nos offres d'emploi</h1>
         </div>
     </div>
 </div>
-<!-- content -->
+
 <section class="wrap tJobOffer pt4 pb3">
     <div class="wrap-small align-center">
         <h2 class="mb1">Nos offres du moment</h2>

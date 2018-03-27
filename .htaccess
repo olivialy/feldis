@@ -2,4 +2,5 @@ DirectoryIndex index.php
 Options +FollowSymlinks
 RewriteEngine on
 
+RewriteRule ^Competence-([-_a-zA-Z]+)$ index.php?page=competence&skill=$1 [L]
 RewriteRule ^([-_a-zA-Z0-9]+)$ index.php?page=$1 [L]
