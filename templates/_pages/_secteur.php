@@ -101,7 +101,7 @@
 </section>
 
 <!-- quotes -->
-<section class="pt3 tFeatured">
+<section class="pt3 tHighlight">
     <div class="wrap">
         <h2>Nos clients assurance témoignent</h2>
 

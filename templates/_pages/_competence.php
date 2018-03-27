@@ -26,8 +26,8 @@
 </section>
 
 <!-- featured works -->
-<section class="wrap pt3 pb3 tFeatured">
-    <h2>Nos réalisations en peinture</h2>
+<section class="wrap pt3 pb3 tHighlight">
+    <h2 class="mb1">Nos réalisations en peinture</h2>
     <ul class="rCards mb2">
         <li class="rCards-child ma0">
             <a href="Cas-Client" class="work">
@@ -61,7 +61,7 @@
 </section>
 
 <!-- quotes-->
-<section class="pt3 pb3 tFeatured bg-pink">
+<section class="pt3 pb3 tHighlight bg-pink">
     <div class="wrap">
         <h2 class="color-white">Nos clients témoignent</h2>
 

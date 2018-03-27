@@ -31,31 +31,31 @@
     <h2>Choisissez votre secteur</h2>
     <ul class="rInlineBlocks">
         <li>
-            <a href="#" class="circle circle-colors">
+            <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-collectivite"></use> </svg>
                 Collectivités<br />locales
             </a>
         </li>
         <li>
-            <a href="#" class="circle circle-colors">
+            <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-assurance"></use> </svg>
                 Assurances
             </a>
         </li>
         <li>
-            <a href="#" class="circle circle-colors">
+            <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-hotel"></use> </svg>
                 Hôtellerie
             </a>
         </li>
         <li>
-            <a href="#" class="circle circle-colors">
+            <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-bailleur"></use> </svg>
                 Bailleurs<br />sociaux
             </a>
         </li>
         <li>
-            <a href="#" class="circle circle-colors">
+            <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-grandcompte"></use> </svg>
                 Grands<br />comptes
             </a>

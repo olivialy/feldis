@@ -1,6 +1,7 @@
 .card
     display: block
     background-color: #f6f4f2;
+    color: white
     text-align: center
     text-decoration: none
 
@@ -59,14 +60,12 @@
             background-image: "url(../img/card-%s.jpg)" % s(image)
 
     &:hover
-        *
-            color: white
-
         svg
             fill: currentColor
 
         .circle-colors
             background-image: url(../img/circle-colors-hover.png)
+            color: white
 
     &:hover &-title
         background-color: $colour.yellow
