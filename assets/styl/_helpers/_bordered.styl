@@ -1,0 +1,10 @@
+.bordered
+    _bordered({w: 100px})
+
+    &-small
+        _bordered({w: 75px})
+
+
+    for colour in $colour
+        &-{colour}:after
+            border-color: $colour[colour]

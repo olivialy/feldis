@@ -13,7 +13,7 @@
     <div class="r3colsFluid wrap-medium">
         <div class="r3colsFluid-child r3colsFluid-child-lead">
             <div class="framed framed-pink mb2">
-                <h2>Être disponibles <br />être efficaces</h2>
+                <h2 class="bordered bordered-pink">Être disponibles <br />être efficaces</h2>
                 <p>Nous nous déplaçons en Ile-de-France et sur Paris pour répondre à toutes les demandes des assurances.</p>
             </div>
         </div>
@@ -44,7 +44,7 @@
             <!-- content -->
             <div class="sm-12 md-6 lg-4 float-right tSector color-white pl1 pr1">
                 <div class="framed framed-white mb2">
-                    <h2>Nos références POUR LES ASSURANCES</h2>
+                    <h2 class="bordered bordered-white">Nos références pour les assurances</h2>
                     <p>Découvrez quelques-uns de nos chantiers sur votre secteur d’activité.</p>
                 </div>
             </div>

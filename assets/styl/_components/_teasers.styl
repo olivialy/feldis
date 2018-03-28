@@ -14,7 +14,7 @@
             position: absolute
             z-index: 2
             top: 50%
-            left: 50%
+            left: 49.5%
             content: ''
             display: block
             width: 0
@@ -27,7 +27,9 @@
             order: 2
 
         &:nth-child(even):before
-            transform: translate(-100%, -50%) rotate(180deg)
+            right: 49.5%
+            left: auto
+            transform: translateY(-50%) rotate(180deg)
 
         &-content
         &-img

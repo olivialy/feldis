@@ -30,8 +30,27 @@
             <ul class="rHeader-nav-main menu">
                 <li><a href="Accueil"><svg height="18" width="18"><use xlink:href="#symbol-home"></use></svg> <span class="sr-only"> Accueil</span></a></li>
                 <li<?php if ($page == 'entreprise') echo ' class="menu-active"' ?>><a href="Entreprise">L'entreprise</a></li>
-                <li<?php if (in_array($page, ['competences', 'competence'])) echo ' class="menu-active"' ?>><a href="Competences">Compétences</a></li>
-                <li<?php if (in_array($page, ['secteurs', 'secteur'])) echo ' class="menu-active"' ?>><a href="Secteurs">Secteurs</a></li>
+                <li<?php if (in_array($page, ['competences', 'competence'])) echo ' class="menu-active"' ?>><a href="Competences">Compétences</a>
+                    <!-- sub nav // displayed only on small screens -->
+                    <ul>
+                        <li<?php if ($skill === 'peinture') echo ' class="menu-active"' ?>><a href="Competence-Peinture">peinture</a></li>
+                        <li<?php if ($skill === 'menuiserie') echo ' class="menu-active"' ?>><a href="Competence-Menuiserie">menuiserie</a></li>
+                        <li<?php if ($skill === 'vitre') echo ' class="menu-active"' ?>><a href="Competence-Vitre">vitrerie</a></li>
+                        <li<?php if ($skill === 'ravalement') echo ' class="menu-active"' ?>><a href="Competence-Ravalement">ravalement</a></li>
+                        <li<?php if ($skill === 'sol') echo ' class="menu-active"' ?>><a href="Competence-Sol">revêtement sol</a></li>
+                        <li<?php if ($skill === 'platre') echo ' class="menu-active"' ?>><a href="Competence-Platre">plâtrerie</a></li>
+                    </ul>
+                </li>
+                <li<?php if (in_array($page, ['secteurs', 'secteur'])) echo ' class="menu-active"' ?>><a href="Secteurs">Secteurs</a>
+                    <!-- sub nav // displayed only on small screens -->
+                    <ul>
+                        <li<?php if ($sector === 'collectivite') echo ' class="menu-active"' ?>><a href="Secteur-Collectivite">Collectivités locales</a></li>
+                        <li<?php if ($sector === 'assurance') echo ' class="menu-active"' ?>><a href="Secteur-Assurance">Assurances</a></li>
+                        <li<?php if ($sector === 'hotel') echo ' class="menu-active"' ?>><a href="Secteur-Hotel">Hôtellerie</a></li>
+                        <li<?php if ($sector === 'bailleur') echo ' class="menu-active"' ?>><a href="Secteur-Bailleur">Bailleurs sociaux</a></li>
+                        <li<?php if ($sector === 'grandcompte') echo ' class="menu-active"' ?>><a href="Secteur-GrandCompte">Grands comptes</a></li>
+                    </ul>
+                </li>
                 <li<?php if ($page == 'certifications') echo ' class="menu-active"' ?>><a href="Certifications">Certifications</a></li>
                 <li<?php if (in_array($page, ['clients', 'cas-client'])) echo ' class="menu-active"' ?>><a href="Clients">Cas clients</a></li>
                 <li<?php if ($page == 'environnement') echo ' class="menu-active"' ?>><a href="Environnement">Environnement</a></li>

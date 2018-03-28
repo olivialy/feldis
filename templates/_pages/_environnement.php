@@ -8,9 +8,9 @@
 </div>
 
 <!-- top section -->
-<section class="r2cols wrap tCertifications pt3 pb3">
+<section class="r2cols wrap tPresentation pt3 pb3">
     <div class="r2cols-child">
-        <h2>Environnement et chantiers</h2>
+        <h2 class="bordered bordered-pink">Environnement et chantiers</h2>
         <p class="mb1">Il est très important de tout mettre en œuvre pour limiter l’impact de nos chantiers sur l’environnement. Nous utilisons, par exemple, des produits sous l’écolabel français <strong>NF environnement</strong> (peintures et vernis). Nous réduisons les nuisances acoustiques et visuelles, nous limitons notre consommation en ressources (eau et énergie) et nous avons mis en place une véritable politique autour des déchets.</p>
         <p>Nous nous engageons sur tous nos chantiers et au sein de notre entreprise à <strong>respecter la démarche environnementale "pour la santé de chacun" et la protection de l'environnement avec la COP21.</strong></p>
     </div>
@@ -46,7 +46,7 @@
 
 <section class="bg-pink pt3 pb3">
     <div class="wrap color-white align-center">
-        <h2>Une organisation verte</h2>
+        <h2 class="bordered bordered-white">Une organisation verte</h2>
         <ul class="rInlineBlocks wrap-medium tIconblock">
             <li class="sm-6 md-4 lg-auto">
                 <p class="iconblock iconblock-emphasis">

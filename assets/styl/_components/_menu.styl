@@ -9,8 +9,13 @@ arrowSize = .6em
         text-transform: uppercase
 
         > ul
+            padding-top: .5em
             font-size: .7em
             list-style: none
+            line-height: 1.5
+
+            a
+                text-decoration: none
 
     a
         color: $colour.default
@@ -24,7 +29,7 @@ arrowSize = .6em
         fill: currentColor
 
     &-active
-        a
+        > a
             position: relative
             display: inline-block
             color: $colour.pink
@@ -36,18 +41,6 @@ arrowSize = .6em
                 content: ''
                 display: block
                 border-bottom: 1px solid
-
-            &:after
-                position: absolute
-                bottom: -2*arrowSize
-                left: 50%
-                content: ''
-                display: block
-                width: 0
-                height: 0
-                border: arrowSize solid transparent
-                border-top-color: currentColor
-                transform: translateX(-50%)
 
         li:not(.menu-active) a
             color: $colour.default
@@ -68,20 +61,18 @@ arrowSize = .6em
             > ul
                 display: none
 
-        &-expanded
-            position: relative
-
+        &-active
             &:after
+                position: absolute
+                bottom: -2*arrowSize
+                left: 50%
                 content: ''
                 display: block
-                position: absolute
-                bottom: 0
-                left: 50%
                 width: 0
-                height: @width
-                border: 10px solid transparent
-                border-bottom-color: $colour.default
-                transform: translateX(-100%)
+                height: 0
+                border: arrowSize solid transparent
+                border-top-color: currentColor
+                transform: translateX(-50%)
 
     @media $screen.lg
         li

@@ -6,9 +6,9 @@
         </div>
     </div>
 </div>
-<section class="r2cols wrap tCertifications pt3 pb3">
+<section class="r2cols wrap tPresentation pt3 pb3">
     <div class="r2cols-child">
-        <h2>Formations</h2>
+        <h2 class="bordered bordered-pink">Formations</h2>
         <p>L’une de nos priorités est de former au mieux nos collaborateurs afin qu'ils puissent s'adapter à chaque situation et travailler toujours en sécurité.
             Cette formation permanente nous permet également de répondre aux évolutions de la réglementation.</p>
         <ul>
@@ -25,12 +25,12 @@
     </div>
 </section>
 <section class="bg-pink">
-    <div class="r2cols wrap tCertifications pt3 pb3">
+    <div class="r2cols wrap tPresentation pt3 pb3">
         <div class="r2cols-child">
             <img src="web/img/img-certif-02.jpg" height="270" width="490" alt="lorem ipsum" />
         </div>
-        <div class="r2cols-child color-white">
-            <h2>Qualibat</h2>
+        <div class="r2cols-child r2cols-first color-white">
+            <h2 class="bordered bordered-white">Qualibat</h2>
             <h3>Qualibat obtenus</h3>
             <ul>
                 <li><strong>6112 :</strong> Peinture et ravalement (technicité confirmé)</li>
@@ -50,9 +50,9 @@
         </div>
     </div>
 </section>
-<section class="r2cols wrap tCertifications pt3 pb3">
+<section class="r2cols wrap tPresentation pt3 pb3">
     <div class="r2cols-child">
-        <h2>Certifications</h2>
+        <h2 class="bordered bordered-pink">Certifications</h2>
         <p>La certification est une source d'amélioration continue et un outil de management interne qui permet une meilleure gestion et une plus grande motivation de nos équipes.</p>
         <h3>Certification obtenue</h3>
         <ul>

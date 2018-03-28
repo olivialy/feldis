@@ -62,7 +62,7 @@
 <section class="bg-grey tHighlight pt3 pb3">
     <h2>Environnement et chantiers</h2>
     <div class="r2cols wrap pt1">
-        <div class="r2cols-child tCertifications">
+        <div class="r2cols-child tPresentation">
             <p>Nos collaborateurs sont la force d’une entreprise comme Feldis & Leviaux</p>
 
             <h3>EFFICACITÉ</h3>
