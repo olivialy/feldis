@@ -23,19 +23,19 @@
 <section class="tHighlight wrap pb2">
     <h2>Nous recyclons</h2>
     <ul class="rInlineBlocks wrap-medium align-center tChronology">
-        <li>
+        <li class="pa1">
             <p class="circle circle-large pl2 pr4">
                 <span>2015</span>
                 Mise en place de la politique de recyclage au sein de Feldis & Leviaux
             </p>
         </li>
-        <li>
+        <li class="pa1">
             <p class="circle circle-large pl2 pr4">
                 <span>2016</span>
                 1 tonne de déchets recyclés
             </p>
         </li>
-        <li>
+        <li class="pa1">
             <p class="circle circle-large pl2 pr4">
                 <span>2017</span>
                 x tonnes de déchets recyclés
@@ -48,33 +48,33 @@
     <div class="wrap color-white align-center">
         <h2>Une organisation verte</h2>
         <ul class="rInlineBlocks wrap-medium tIconblock">
-            <li>
+            <li class="sm-6 md-4 lg-auto">
                 <p class="iconblock iconblock-emphasis">
-                    <img src="web/img/dechet-01.png" height="52" width="52" alt="*" />
+                    <svg height="54" width="54"><use xlink:href="#symbol-dechet-01"></use> </svg>
                     Réduction des déchets
                 </p>
             </li>
-            <li>
+            <li class="sm-6 md-4 lg-auto">
                 <p class="iconblock iconblock-emphasis">
-                    <img src="web/img/dechet-02.png" height="52" width="52" alt="*" />
+                    <svg height="54" width="54"><use xlink:href="#symbol-dechet-02"></use> </svg>
                     Stockage et tri des déchets dangereux
                 </p>
             </li>
-            <li>
+            <li class="sm-6 md-4 lg-auto">
                 <p class="iconblock iconblock-emphasis">
-                    <img src="web/img/dechet-03.png" height="52" width="52" alt="*" />
+                    <svg height="54" width="54"><use xlink:href="#symbol-dechet-03"></use> </svg>
                     Suivi des déchets (bordereaux)
                 </p>
             </li>
-            <li>
+            <li class="sm-6 md-4 lg-auto">
                 <p class="iconblock iconblock-emphasis">
-                    <img src="web/img/dechet-04.png" height="52" width="52" alt="*" />
+                    <svg height="54" width="54"><use xlink:href="#symbol-dechet-04"></use> </svg>
                     Système propre de nettoyage du matériel
                 </p>
             </li>
-            <li>
+            <li class="sm-6 md-4 lg-auto">
                 <p class="iconblock iconblock-emphasis">
-                    <img src="web/img/dechet-05.png" height="52" width="52" alt="*" />
+                    <svg height="54" width="54"><use xlink:href="#symbol-dechet-05"></use> </svg>
                     Fiches sécurité des produits dangereux
                 </p>
             </li>

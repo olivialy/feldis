@@ -1,9 +1,17 @@
 .iconblock
-    width: 150px
+    margin: 0 auto
+    padding: 1em
+    font-size: _px2em(13px)
     text-align: center
 
-    img
+    svg
+        display: block
         margin: 0 auto .5em
 
     &-emphasis
+        width: 150px
         text-transform: uppercase
+
+
+    @media $screen.md
+        font-size: 1em

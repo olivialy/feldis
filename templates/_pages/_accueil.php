@@ -30,31 +30,31 @@
     <p class="md-10 lg-7">Grâce à notre expérience, nous connaissons les process et les contraintes de votre secteur ce qui nous permet de vous offrir un accompagnement sur-mesure</p>
     <h2>Choisissez votre secteur</h2>
     <ul class="rInlineBlocks">
-        <li>
+        <li class="md-4 lg-auto pa1">
             <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-collectivite"></use> </svg>
                 Collectivités<br />locales
             </a>
         </li>
-        <li>
+        <li class="md-4 lg-auto pa1">
             <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-assurance"></use> </svg>
                 Assurances
             </a>
         </li>
-        <li>
+        <li class="md-4 lg-auto pa1">
             <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-hotel"></use> </svg>
                 Hôtellerie
             </a>
         </li>
-        <li>
+        <li class="md-4 lg-auto pa1">
             <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-bailleur"></use> </svg>
                 Bailleurs<br />sociaux
             </a>
         </li>
-        <li>
+        <li class="md-4 lg-auto pa1">
             <a href="#" class="circle circle-small circle-colors">
                 <svg height="60" width="60"><use xlink:href="#symbol-sector-grandcompte"></use> </svg>
                 Grands<br />comptes

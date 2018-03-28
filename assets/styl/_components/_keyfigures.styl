@@ -1,0 +1,31 @@
+.keyfigures
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    list-style: none
+
+    li
+        display: flex
+        padding-bottom: 2em
+        line-height: 1
+        text-transform: uppercase
+
+    span
+        color: $colour.pink
+        font-size: _px2em(45px)
+        font-weight: bold
+
+    svg
+        margin-right: 1em
+        fill: $colour.pink
+
+    @media $screen.md
+        li
+            width: 35%
+
+    @media $screen.lg
+        flex-wrap: nowrap
+        justify-content: space-between
+
+        li
+            width: auto

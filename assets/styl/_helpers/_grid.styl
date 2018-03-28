@@ -8,6 +8,9 @@ for breakpoint, query in $screen
         .hide-{breakpoint}
             display: none
 
+        .{breakpoint}-auto
+            width: auto
+
         // column sizes
         for i in (1..$columns)
             .{breakpoint}-{i}

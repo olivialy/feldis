@@ -7,22 +7,6 @@ $(function() {
         $slider = $('#slider'),
         counted = false;
 
-    // headroom.js
-    // handle .header show/hide animation
-    $header.headroom({
-        "offset": 50,
-        "tolerance": 5,
-        "classes": {
-            initial:    'header',              // when element is initialised
-            pinned:     'header-pinned',       // when scrolling up
-            unpinned:   'header-unpinned',     // when scrolling down
-            top:        'header-top',          // when above offset
-            notTop:     'header-not-top',      // when below offset
-            bottom:     'header-bottom',       // when at bottom of scoll area
-            notBottom:  'header-not-bottom'    // when not at bottom of scroll area
-        }
-    });
-
     // open/close menu
     $('#open-menu').on('click', function (){
         $menu.addClass('rHeader-nav-open');
@@ -36,24 +20,22 @@ $(function() {
         $header.removeAttr('style');
     });
 
-    //
-    //// material key figures counters
-    //$(window).on('scroll', function(){
-    //    if ($keyfigures.length && $keyfigures.offset().top <= $(window).scrollTop() + $(window).height() * .95 && !counted) {
-    //        counted = true;
-    //        $('.keyfigures-counter', $keyfigures).each(function () {
-    //            $(this).prop('Counter', 0).animate({
-    //                Counter: $(this).text()
-    //            }, {
-    //                duration: 3000,
-    //                easing: 'swing',
-    //                step: function (now) {
-    //                    $(this).text(Math.ceil(now));
-    //                }
-    //            });
-    //        });
-    //    }
-    //});
+    // key figures counters
+    $(window).on('load', function(){
+        counted = true;
+        $('[data-counter]', $keyfigures).each(function () {
+            var $this = $(this);
+            $this.prop('Counter', 0).animate({
+                Counter: $this.attr('data-counter')
+            }, {
+                duration: 3000,
+                easing: 'swing',
+                step: function (now) {
+                    $this.find('b').text(Math.ceil(now));
+                }
+            });
+        });
+    });
 
     // works and news
     $('#trigger-rows').on('click', function(e) {
