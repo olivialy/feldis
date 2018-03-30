@@ -1,7 +1,7 @@
 <div class="rCover">
     <div class="sectionhead sectionhead-pink">
         <div class="wrap">
-            <h1 class="sectionhead-title">Titre h1</h1>
+            <h1 class="sectionhead-title">S’engager auprès de nos clients</h1>
             <p class="sectionhead-subheading sectionhead-subheading-bigger wrap-medium">Nous mettons au service de nos clients le savoir-faire de nos collaborateurs pour réaliser tous leurs projets de second œuvres et de finition. Nos 40 ans d’expérience, nous permettent de répondre à toutes vos problématiques et d’être force de proposition.</p>
         </div>
     </div>
@@ -87,7 +87,7 @@
         <li class="md-6 lg-3 pa1">
             <p class="circle circle-large pl2 pr3">
                 <span>1973</span>
-                Création de la SARL le 20&nbsp;novembre&nbsp;1973 par M. Feldis et M. Leviaux, principalement pour des travaux de peinture.
+                Création de la SARL le 20&nbsp;novembre&nbsp;1973 par <br />M. Feldis et M. Leviaux, principalement pour des travaux de peinture.
             </p>
         </li>
         <li class="md-6 lg-3 pa1">
@@ -99,7 +99,7 @@
         <li class="md-6 lg-3 pa1">
             <p class="circle circle-large pl2 pr3">
                 <span>2010</span>
-                Rachat de la société par M. Henriques Christophe qui développe le champ d’activité
+                Rachat de la société par <br />M. Henriques Christophe <br />qui développe le <br />champ d’activité
             </p>
         </li>
         <li class="md-6 lg-3 pa1">

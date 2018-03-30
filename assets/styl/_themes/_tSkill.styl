@@ -14,8 +14,14 @@
 
     > div:nth-child(even)
         display: none
-        background: url(../img/bg-skills.jpg) no-repeat left center
+        background-image: url(../img/bg-skills-peinture.jpg)
+        background-position: left center
+        background-repeat: no-repeat
         background-size: cover
+
+    for bg in peinture vitre platre sol ravalement menuiserie
+        &-{bg} > div:nth-child(even)
+            background-image: "url(../img/bg-skill-%s.jpg)" % s(bg)
 
     @media $screen.md
         > div:nth-child(odd)

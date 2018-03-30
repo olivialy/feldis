@@ -2,16 +2,16 @@
 <div class="rCover">
     <div class="sectionhead sectionhead-pink">
         <div class="wrap">
-            <h1 class="sectionhead-skilltitle">Peinture</h1>
+            <h1 class="sectionhead-skilltitle">Titre <?php echo $skill?></h1>
             <p class="sectionhead-icon">
-                <span><svg height="48" width="48"><use xlink:href="#symbol-skill-peinture"></use></svg></span>
+                <span><svg height="48" width="48"><use xlink:href="#symbol-skill-<?php echo $skill?>"></use></svg></span>
             </p>
             <p class="sectionhead-subheading sectionhead-subheading-skill pb1">Nous sommes, depuis 40 ans, une entreprise de référence parmi les professionnels de la peinture en bâtiment</p>
         </div>
     </div>
 </div>
 
-<section class="rTwins tSkill">
+<section class="rTwins tSkill tSkill-<?php echo $skill?>">
     <div class="rTwins-child bg-lightgrey pt2 pb2">
         <div class="rTwins-child-content">
             <h2>Nos compétences en peinture</h2>
@@ -33,7 +33,7 @@
             <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-01.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-icon">
-                    <svg height="80" width="80"><use xlink:href="#symbol-skill-peinture"></use> </svg>
+                    <svg height="80" width="80"><use xlink:href="#symbol-skill-<?php echo $skill?>"></use> </svg>
                 </p>
                 <p><strong>PROJET</strong><br />Rénovation hôtel </p>
             </a>
@@ -42,7 +42,7 @@
             <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-02.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-icon">
-                    <svg height="80" width="80"><use xlink:href="#symbol-skill-peinture"></use> </svg>
+                    <svg height="80" width="80"><use xlink:href="#symbol-skill-<?php echo $skill?>"></use> </svg>
                 </p>
                 <p><strong>PROJET</strong><br />Maison de Santé + 2 appartements</p>
             </a>
@@ -51,7 +51,7 @@
             <a href="Cas-Client" class="work">
                 <img src="web/img/works/work-03.jpg" width="336" height="336" alt="titre de l'image" />
                 <p class="work-icon">
-                    <svg height="80" width="80"><use xlink:href="#symbol-skill-peinture"></use> </svg>
+                    <svg height="80" width="80"><use xlink:href="#symbol-skill-<?php echo $skill?>"></use> </svg>
                 </p>
                 <p><strong>PROJET</strong><br />Création d’un espace sport à IPSOS</p>
             </a>

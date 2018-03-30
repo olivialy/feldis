@@ -15,11 +15,21 @@ $(function() {
     });
 
     $('#close-menu').on('click', function (){
+        closeMenu();
+    });
+
+    // contact button must close menu pane on mobile
+    $('#contactlink').on('click', function() {
+        if ($menu.hasClass('rHeader-nav-open')) {
+            closeMenu();
+        }
+    });
+
+    function closeMenu() {
         $menu.removeClass('rHeader-nav-open');
         $body.removeAttr('style');
         $header.removeAttr('style');
-    });
-
+    }
     // key figures counters
     $(window).on('load', function(){
         counted = true;

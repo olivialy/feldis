@@ -12,7 +12,7 @@
         </ul>
         <address class="pb1">
             Feldis & Leviaux<br />
-            5 rue Gatelliet - 77000 MELUN<br />
+            400 avenue de l’Europe, 77240 Vert Saint Denis<br />
             Tel : 01.64.39.17.87<br />
             Fax: 01.64.39.25.49 </address>
         <p>Copyright Feldis & Leviaux 2017</p>

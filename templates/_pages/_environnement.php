@@ -82,7 +82,7 @@
     </div>
     <div class="r2cols wrap color-white pt3 pb3">
         <div class="r2cols-child">
-            <img src="web/img/img-environnement-01.jpg" height="270" width="490" alt="lorem ipsum" />
+            <img src="web/img/img-environnement-02.jpg" height="270" width="490" alt="lorem ipsum" />
         </div>
         <div class="r2cols-child">
             <h2>Pour aller plus loin</h2>

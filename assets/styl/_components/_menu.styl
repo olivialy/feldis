@@ -5,7 +5,8 @@ arrowSize = .6em
 
     > li
         padding-bottom: .5em
-        font-size: _px2em(21px)
+        font-size: _px2em(16px)
+        //font-size: _px2em(21px)
         text-transform: uppercase
 
         > ul
@@ -45,10 +46,6 @@ arrowSize = .6em
         li:not(.menu-active) a
             color: $colour.default
 
-    @media $screen.sm
-        svg
-            transform: scale(2)
-
     @media $screen.md
         li
             padding: 0 .5em arrowSize
@@ -62,7 +59,7 @@ arrowSize = .6em
                 display: none
 
         &-active
-            &:after
+            a:after
                 position: absolute
                 bottom: -2*arrowSize
                 left: 50%

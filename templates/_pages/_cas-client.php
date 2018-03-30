@@ -66,7 +66,7 @@
         <ul class="media-thumbs">
             <li><a href="web/img/works/work-01_slide-01.jpg"><img src="web/img/works/work-01_thumb-01.jpg" alt="titre de l'image" /></a></li>
             <li><a href="web/img/works/work-01_slide-02.jpg"><img src="web/img/works/work-01_thumb-02.jpg" alt="titre de l'image" /></a></li>
-            <li><a href="web/img/works/work-01_slide-03.jpg"><img src="web/img/works/work-01_thumb-03.jpg" alt="titre de l'image" /></a></li>
+            <li><a href="web/img/works/work-01_slide-03-portrait.jpg"><img src="web/img/works/work-01_thumb-03.jpg" alt="titre de l'image" /></a></li>
         </ul>
     </div>
 </div>
@@ -80,7 +80,7 @@
         <ul class="media-thumbs">
             <li><a href="web/img/works/work-01_slide-01.jpg"><img src="web/img/works/work-01_thumb-01.jpg" alt="titre de l'image" /></a></li>
             <li><a href="web/img/works/work-01_slide-02.jpg"><img src="web/img/works/work-01_thumb-02.jpg" alt="titre de l'image" /></a></li>
-            <li><a href="web/img/works/work-01_slide-03.jpg"><img src="web/img/works/work-01_thumb-03.jpg" alt="titre de l'image" /></a></li>
+            <li><a href="web/img/works/work-01_slide-03-portrait.jpg"><img src="web/img/works/work-01_thumb-03.jpg" alt="titre de l'image" /></a></li>
         </ul>
     </div>
 </div>
@@ -94,7 +94,7 @@
         <ul class="media-thumbs">
             <li><a href="web/img/works/work-01_slide-01.jpg"><img src="web/img/works/work-01_thumb-01.jpg" alt="titre de l'image" /></a></li>
             <li><a href="web/img/works/work-01_slide-02.jpg"><img src="web/img/works/work-01_thumb-02.jpg" alt="titre de l'image" /></a></li>
-            <li><a href="web/img/works/work-01_slide-03.jpg"><img src="web/img/works/work-01_thumb-03.jpg" alt="titre de l'image" /></a></li>
+            <li><a href="web/img/works/work-01_slide-03-portrait.jpg"><img src="web/img/works/work-01_thumb-03.jpg" alt="titre de l'image" /></a></li>
         </ul>
     </div>
 </div>
@@ -107,7 +107,7 @@
     </p>
 </div>
 <ul class="pager pb4">
-    <li><a href="#">&lt;&lt; <span class="hide-sm"> PROJET</span>PRÉCÉDENT</a></li>
+    <li><a href="#">&lt;&lt; <span class="hide-sm">PROJET </span>PRÉCÉDENT</a></li>
     <li><a href="Clients">Retour<span class="hide-sm"> aux cas clients</span></a></li>
     <li><a href="#"><span class="hide-sm">PROJET </span>SUIVANT &gt;&gt;</a></li>
 </ul>

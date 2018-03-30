@@ -1,5 +1,5 @@
 <!-- Détail d'un secteur -->
-<div class="rCover rCover-assurance">
+<div class="rCover rCover-<?php echo $sector ?>">
     <div class="sectionhead">
         <div class="wrap">
             <h1 class="sectionhead-title">Collaborer avec les assurances <span>Notre expertise depuis 10 ans</span></h1>

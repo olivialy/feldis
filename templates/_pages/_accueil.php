@@ -12,14 +12,14 @@
             <div class="rTwins-child-content">
                 <h2>Nos certifications</h2>
                 <p>Iso 9001 depuis 2017, notre rigueur porte ses fruits et nous permet de fournir un travail de qualité.</p>
-                <a href="#" class="cta cta-purple float-right">Découvrez nos certifications <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></a>
+                <a href="#" class="cta cta-purple float-right-md">Découvrez nos certifications <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></a>
             </div>
         </div>
         <div class="tHP-environment">
             <div class="rTwins-child-content">
                 <h2>L'environnement</h2>
                 <p><strong>Feldis & Leviaux s’engage à respecter une véritable démarche environnementale.</strong></p>
-                <a href="#" class="cta cta-yellow float-right">Découvrez nos engagements <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></a>
+                <a href="#" class="cta cta-yellow float-right-md">Découvrez nos engagements <svg height="30" width="30"><use xlink:href="#symbol-cta"></use></svg></a>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
                                 <dt><strong>Lieu</strong></dt>
                                 <dd>Faremoutiers (77)</dd>
                                 <dt><strong>Compétences</strong></dt>
-                                <dd>Rénovation / Vitrerie / Sol / Plomberie / Vitrerie / Sol / Plomberie</dd>
+                                <dd>Peinture / Vitrerie / Menuiserie / Plâtrerie / Ravalement / Revêtement de sols</dd>
                             </dl>
                             <a class="cta pa1" href="#">En savoir plus</a>
                         </div>
@@ -110,7 +110,7 @@
         <div class="rTwins-child bg-purple tHP-latest">
             <div class="rTwins-child-content">
                 <h2>Nos Actus</h2>
-                <p>Retrouvez toutes les actualités <br />et informations de Feldis & Leviaux. </p>
+                <p>Retrouvez toutes les actualités et informations de Feldis & Leviaux : nos chantiers, nos métiers, nos projets et nos événements.</p>
                 <ul class="teasers mt2 mb1">
                     <li class="teasers-item">
                         <div class="teasers-item-content">

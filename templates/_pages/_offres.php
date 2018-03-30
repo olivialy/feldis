@@ -7,7 +7,7 @@
 </div>
 
 <section class="wrap tJobOffer pt4 pb3">
-    <div class="wrap-small align-center">
+    <div class="wrap-small align-center-md">
         <h2 class="mb1">Nos offres du moment</h2>
         <div class="pb2">
             <h3>Menuisier</h3>
